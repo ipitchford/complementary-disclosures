@@ -1,0 +1,339 @@
+{
+ "schema": 2,
+ "provenance": "fresh_repaired_witness_retaining_run",
+ "name": "rand_n4_e10_s4000",
+ "n": 4,
+ "edges": 10,
+ "requested_edges": 10,
+ "seed": 4000,
+ "menu": 3,
+ "generator": {
+  "shocked": 2,
+  "shock": "5/2",
+  "before": [
+   "9/4",
+   "3/4",
+   "5/2",
+   "0"
+  ],
+  "requested_edges": 10,
+  "actual_edges": 10,
+  "possible_edges": 12,
+  "topology": "cyclic_allowed",
+  "seed": 4000,
+  "base_matrix": [
+   [
+    "0",
+    "1",
+    "1/4",
+    "1/2"
+   ],
+   [
+    "1/2",
+    "0",
+    "1/4",
+    "3/4"
+   ],
+   [
+    "0",
+    "1",
+    "0",
+    "3/4"
+   ],
+   [
+    "1/4",
+    "1/4",
+    "0",
+    "0"
+   ]
+  ]
+ },
+ "instance": {
+  "name": "rand_n4_e10_s4000",
+  "r": [
+   "7/4",
+   "3/2",
+   "7/4",
+   "1/2"
+  ],
+  "a": [
+   "3/4",
+   "9/4",
+   "1/2",
+   "2"
+  ],
+  "b": [
+   "1",
+   "1",
+   "1",
+   "1"
+  ],
+  "x": [
+   "9/4",
+   "3/4",
+   "0",
+   "0"
+  ],
+  "bounds": [
+   [
+    0,
+    1,
+    "0",
+    "7/4"
+   ],
+   [
+    0,
+    2,
+    "0",
+    "1/2"
+   ],
+   [
+    0,
+    3,
+    "0",
+    "7/4"
+   ],
+   [
+    1,
+    0,
+    "0",
+    "3/4"
+   ],
+   [
+    1,
+    2,
+    "0",
+    "1/2"
+   ],
+   [
+    1,
+    3,
+    "0",
+    "3/2"
+   ],
+   [
+    2,
+    1,
+    "0",
+    "7/4"
+   ],
+   [
+    2,
+    3,
+    "0",
+    "7/4"
+   ],
+   [
+    3,
+    0,
+    "0",
+    "1/2"
+   ],
+   [
+    3,
+    1,
+    "0",
+    "1/2"
+   ]
+  ],
+  "queries": [
+   {
+    "name": "L31",
+    "terms": [
+     [
+      3,
+      1,
+      "1"
+     ]
+    ],
+    "cost": "1"
+   },
+   {
+    "name": "L12",
+    "terms": [
+     [
+      1,
+      2,
+      "1"
+     ]
+    ],
+    "cost": "1"
+   },
+   {
+    "name": "L10",
+    "terms": [
+     [
+      1,
+      0,
+      "1"
+     ]
+    ],
+    "cost": "1"
+   }
+  ]
+ },
+ "shock": "5/2",
+ "shocked": 2,
+ "status": "unresolved",
+ "queries": [
+  {
+   "selected": [],
+   "epsilon": "5/4",
+   "relation": ">",
+   "status": "unknown",
+   "solver_status": "unknown",
+   "seconds": 40.268400667002425,
+   "timeout_ms": 40000,
+   "rational_verified": false,
+   "evidence": "unresolved",
+   "noise": null,
+   "different_report": null,
+   "instance": {
+    "name": "rand_n4_e10_s4000",
+    "r": [
+     "7/4",
+     "3/2",
+     "7/4",
+     "1/2"
+    ],
+    "a": [
+     "3/4",
+     "9/4",
+     "1/2",
+     "2"
+    ],
+    "b": [
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "x": [
+     "9/4",
+     "3/4",
+     "0",
+     "0"
+    ],
+    "bounds": [
+     [
+      0,
+      1,
+      "0",
+      "7/4"
+     ],
+     [
+      0,
+      2,
+      "0",
+      "1/2"
+     ],
+     [
+      0,
+      3,
+      "0",
+      "7/4"
+     ],
+     [
+      1,
+      0,
+      "0",
+      "3/4"
+     ],
+     [
+      1,
+      2,
+      "0",
+      "1/2"
+     ],
+     [
+      1,
+      3,
+      "0",
+      "3/2"
+     ],
+     [
+      2,
+      1,
+      "0",
+      "7/4"
+     ],
+     [
+      2,
+      3,
+      "0",
+      "7/4"
+     ],
+     [
+      3,
+      0,
+      "0",
+      "1/2"
+     ],
+     [
+      3,
+      1,
+      "0",
+      "1/2"
+     ]
+    ],
+    "queries": [
+     {
+      "name": "L31",
+      "terms": [
+       [
+        3,
+        1,
+        "1"
+       ]
+      ],
+      "cost": "1"
+     },
+     {
+      "name": "L12",
+      "terms": [
+       [
+        1,
+        2,
+        "1"
+       ]
+      ],
+      "cost": "1"
+     },
+     {
+      "name": "L10",
+      "terms": [
+       [
+        1,
+        0,
+        "1"
+       ]
+      ],
+      "cost": "1"
+     }
+    ]
+   },
+   "instance_sha256": "362b75020beafa09c68dc6de644d5b4d075dd2cfb1f655db86bae1e482795ed5",
+   "query_sha256": "b1f8a0627f7a6beb54f4ce537caaa912d77c7344394b64618a0c983a0ed29b5c",
+   "query_id": "51d0cf1aa244495c929c1a3b0e05a38e",
+   "z3_version": "5.1.0",
+   "reason": "timeout",
+   "wall_seconds": 40.274402708048,
+   "stage": "width:()"
+  }
+ ],
+ "timeout_ms": 40000,
+ "bracket_tolerance": "5/128",
+ "widths": {},
+ "failed_subset": [],
+ "failed_bracket": [
+  "0",
+  "5/2"
+ ],
+ "bisection_seconds": 40.28133762499783,
+ "oracle_calls": 1,
+ "oracle_seconds": 40.268400667002425,
+ "max_call_seconds": 40.268400667002425,
+ "unknown_calls": 1,
+ "solver_only_sat_calls": 0,
+ "wall_seconds": 40.281491083907895
+}

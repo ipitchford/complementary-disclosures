@@ -1,0 +1,168 @@
+{
+  "scope": "reaggregation_and_generator_metadata_check_only_not_fresh_solver_replay",
+  "historical_lower_bound_witness_matrices": "not_retained_cannot_retrofit",
+  "datasets": {
+    "dag_menu3_a": {
+      "instances": 16,
+      "completed_brackets": 14,
+      "unresolved_instances": 2,
+      "positive_lower_bracket": 14,
+      "zero_width_not_established_by_archived_bracket": [],
+      "reported_complementarity_among_completed_positive": 4,
+      "reported_negligible_singleton_among_completed_positive": 9,
+      "selection_statuses": {
+        "optimal": 5,
+        "infeasible": 9,
+        "unknown": 0
+      },
+      "selection_target": "initial_upper_bracket/2_not_exact_half_true_width",
+      "max_recorded_width_query_seconds_completed_only": 14.504175845999725,
+      "historical_selection_query_maximum": "unavailable_not_reconstructed_from_total_duration",
+      "median_wall_seconds_all_instances": 22.84161550450017,
+      "max_wall_seconds_all_instances": 635.624619745,
+      "interpretation": "conditional_descriptive_counts_not_population_prevalence_or_causal_topology_comparison",
+      "source_sha256": "ea93e2ae67951890c156aaa03a936c03dd29024026cb1aab6d59a2dbb1a60419",
+      "source_file": "results/dag_menu3_a.json"
+    },
+    "dag_menu3_b": {
+      "instances": 16,
+      "completed_brackets": 10,
+      "unresolved_instances": 6,
+      "positive_lower_bracket": 9,
+      "zero_width_not_established_by_archived_bracket": [
+        "dag_n8_e18_s8004"
+      ],
+      "reported_complementarity_among_completed_positive": 0,
+      "reported_negligible_singleton_among_completed_positive": 9,
+      "selection_statuses": {
+        "optimal": 2,
+        "infeasible": 7,
+        "unknown": 0
+      },
+      "selection_target": "initial_upper_bracket/2_not_exact_half_true_width",
+      "max_recorded_width_query_seconds_completed_only": 30.117761695999434,
+      "historical_selection_query_maximum": "unavailable_not_reconstructed_from_total_duration",
+      "median_wall_seconds_all_instances": 41.099949121499776,
+      "max_wall_seconds_all_instances": 669.5186552510004,
+      "interpretation": "conditional_descriptive_counts_not_population_prevalence_or_causal_topology_comparison",
+      "source_sha256": "44141908675526e66d684f8bd7c58cd91705fa2795038400ba029491946cfd81",
+      "source_file": "results/dag_menu3_b.json"
+    },
+    "dag_menu4": {
+      "instances": 6,
+      "completed_brackets": 4,
+      "unresolved_instances": 2,
+      "positive_lower_bracket": 4,
+      "zero_width_not_established_by_archived_bracket": [],
+      "reported_complementarity_among_completed_positive": 0,
+      "reported_negligible_singleton_among_completed_positive": 4,
+      "selection_statuses": {
+        "optimal": 0,
+        "infeasible": 4,
+        "unknown": 0
+      },
+      "selection_target": "initial_upper_bracket/2_not_exact_half_true_width",
+      "max_recorded_width_query_seconds_completed_only": 14.057436663999397,
+      "historical_selection_query_maximum": "unavailable_not_reconstructed_from_total_duration",
+      "median_wall_seconds_all_instances": 30.33150623099982,
+      "max_wall_seconds_all_instances": 1024.9704913280002,
+      "interpretation": "conditional_descriptive_counts_not_population_prevalence_or_causal_topology_comparison",
+      "source_sha256": "55dc25cc654e3b4a34e69e16a9e65fedd2fd7c3316aca6225b1299af789281de",
+      "source_file": "results/dag_menu4.json"
+    },
+    "cyclic_menu3": {
+      "instances": 6,
+      "completed_brackets": 1,
+      "unresolved_instances": 5,
+      "positive_lower_bracket": 1,
+      "zero_width_not_established_by_archived_bracket": [],
+      "reported_complementarity_among_completed_positive": 0,
+      "reported_negligible_singleton_among_completed_positive": 1,
+      "selection_statuses": {
+        "optimal": 0,
+        "infeasible": 1,
+        "unknown": 0
+      },
+      "selection_target": "initial_upper_bracket/2_not_exact_half_true_width",
+      "max_recorded_width_query_seconds_completed_only": 14.390956357000505,
+      "historical_selection_query_maximum": "unavailable_not_reconstructed_from_total_duration",
+      "median_wall_seconds_all_instances": 40.13836388899972,
+      "max_wall_seconds_all_instances": 263.6371436419995,
+      "interpretation": "conditional_descriptive_counts_not_population_prevalence_or_causal_topology_comparison",
+      "source_sha256": "9ba89c5d51de040b194389749c17f78fedcbc508c64b5d854cea15fd5ee3804c",
+      "source_file": "results/cyclic_menu3.json"
+    }
+  },
+  "edge_count_corrections": [
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5000",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    },
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5001",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    },
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5002",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    },
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5003",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    },
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5004",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    },
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5005",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    },
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5006",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    },
+    {
+      "dataset": "dag_menu3_a",
+      "name": "dag_n5_e12_s5007",
+      "historical_requested_and_reported_edges": 12,
+      "actual_allowed_edges": 10
+    }
+  ],
+  "dag_menu3_combined": {
+    "instances": 32,
+    "completed_brackets": 24,
+    "unresolved_instances": 8,
+    "positive_lower_bracket": 23,
+    "zero_width_not_established_by_archived_bracket": [
+      "dag_n8_e18_s8004"
+    ],
+    "reported_complementarity_among_completed_positive": 4,
+    "reported_negligible_singleton_among_completed_positive": 18,
+    "selection_statuses": {
+      "optimal": 7,
+      "infeasible": 16,
+      "unknown": 0
+    },
+    "selection_target": "initial_upper_bracket/2_not_exact_half_true_width",
+    "max_recorded_width_query_seconds_completed_only": 30.117761695999434,
+    "historical_selection_query_maximum": "unavailable_not_reconstructed_from_total_duration",
+    "median_wall_seconds_all_instances": 40.21382866699969,
+    "max_wall_seconds_all_instances": 669.5186552510004,
+    "interpretation": "conditional_descriptive_counts_not_population_prevalence_or_causal_topology_comparison"
+  }
+}

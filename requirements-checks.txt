@@ -1,0 +1,2 @@
+# Portable read-only checks; tested separately from the Homebrew Z3 5.1.0 study.
+z3-solver==4.15.4.0

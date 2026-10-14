@@ -1,0 +1,616 @@
+{
+ "exact_cases": 239,
+ "z3_checks": [
+  {
+   "selected": [],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.014671385999463382,
+   "k": 3,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.004795627000021341,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    1,
+    2
+   ],
+   "independent_fraction_check": "passed",
+   "k": 3,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.00699792300019908,
+   "k": 3,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.006379134999406233,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    1,
+    2
+   ],
+   "independent_fraction_check": "passed",
+   "k": 3,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.007069715999932669,
+   "k": 3,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.005930925000029674,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    2
+   ],
+   "independent_fraction_check": "passed",
+   "k": 3,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.007828159999917261,
+   "k": 3,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.007043427999633423,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    1
+   ],
+   "independent_fraction_check": "passed",
+   "k": 3,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    1
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.004158181000093464,
+   "k": 3,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [
+    0,
+    2
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.004182184999990568,
+   "k": 3,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [
+    1,
+    2
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.004215305999423435,
+   "k": 3,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [
+    0,
+    1,
+    2
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.004158400000051188,
+   "k": 3,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.050193661000776046,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.004431929000020318,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    1
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.02989381199950003,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.02019780200043897,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    1,
+    2
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.027267389000371622,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.011590642000555818,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    2
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.02750830999957543,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.018052274999718065,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    1
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.0346251740002117,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.022063933000026736,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    1
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    1
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.010907046999818704,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    1
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.02180709299955197,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    2,
+    3
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.014177033999658306,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.01096769299965672,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    1,
+    3
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.0165187929997046,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.011021932000403467,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    1,
+    2
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1,
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.013704904000405804,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1,
+    2
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.010807055999976,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    3
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1,
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.012977029000467155,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    1,
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.012935949000166147,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    2
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    2,
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.038919302000067546,
+   "k": 4,
+   "type": "upper",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    2,
+    3
+   ],
+   "epsilon": "1/2",
+   "relation": ">=",
+   "status": "sat",
+   "seconds": 0.008344058999682602,
+   "loss_A": "3/2",
+   "loss_B": "1",
+   "gap": "1/2",
+   "distinguishing_queries": [
+    0,
+    1
+   ],
+   "independent_fraction_check": "passed",
+   "k": 4,
+   "type": "attain",
+   "predicted": "1/2"
+  },
+  {
+   "selected": [
+    0,
+    1,
+    2
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.006646611999713059,
+   "k": 4,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [
+    0,
+    1,
+    3
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.006910828000400215,
+   "k": 4,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [
+    0,
+    2,
+    3
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.021189371999753348,
+   "k": 4,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [
+    1,
+    2,
+    3
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.016400395999880857,
+   "k": 4,
+   "type": "upper",
+   "predicted": "0"
+  },
+  {
+   "selected": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "epsilon": "0",
+   "relation": ">",
+   "status": "unsat",
+   "seconds": 0.02414511000006314,
+   "k": 4,
+   "type": "upper",
+   "predicted": "0"
+  }
+ ],
+ "z3_version": "5.1.0",
+ "max_seconds": 0.050193661000776046
+}

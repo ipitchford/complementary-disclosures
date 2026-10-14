@@ -1,0 +1,683 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+  "exact_clearing_cases": 408,
+  "endpoint_width_checks": 252,
+  "fraction_tests": "passed",
+  "solver_checks": [
+    {
+      "selected": [],
+      "epsilon": "1/2",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_2",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [],
+      "epsilon": "1/2",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "2",
+      "loss_B": "3/2",
+      "gap": "1/2",
+      "distinguishing_queries": [
+        1
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_2",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "1/2",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_2",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "1/2",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "2",
+      "loss_B": "3/2",
+      "gap": "1/2",
+      "distinguishing_queries": [
+        1
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_2",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        1
+      ],
+      "epsilon": "1/2",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_2",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        1
+      ],
+      "epsilon": "1/2",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "2",
+      "loss_B": "3/2",
+      "gap": "1/2",
+      "distinguishing_queries": [
+        0
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_2",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0,
+        1
+      ],
+      "epsilon": "0",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_2",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [],
+      "epsilon": "8/25",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "positive_capital",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [],
+      "epsilon": "8/25",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "377/200",
+      "loss_B": "313/200",
+      "gap": "8/25",
+      "distinguishing_queries": [
+        1
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "positive_capital",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "8/25",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "positive_capital",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "8/25",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "377/200",
+      "loss_B": "313/200",
+      "gap": "8/25",
+      "distinguishing_queries": [
+        1
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "positive_capital",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        1
+      ],
+      "epsilon": "8/25",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "positive_capital",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        1
+      ],
+      "epsilon": "8/25",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "377/200",
+      "loss_B": "313/200",
+      "gap": "8/25",
+      "distinguishing_queries": [
+        0
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "positive_capital",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0,
+        1
+      ],
+      "epsilon": "0",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "positive_capital",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "1/4",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "one_aggregate",
+      "type": ">"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "1/4",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "7/4",
+      "loss_B": "3/2",
+      "gap": "1/4",
+      "distinguishing_queries": [],
+      "independent_fraction_check": "passed",
+      "instance": "one_aggregate",
+      "type": ">="
+    },
+    {
+      "selected": [],
+      "epsilon": "51/100",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [],
+      "epsilon": "51/100",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "101/50",
+      "loss_B": "151/100",
+      "gap": "51/100",
+      "distinguishing_queries": [
+        0,
+        2
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_plus_decoy",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "51/100",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        0
+      ],
+      "epsilon": "51/100",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "101/50",
+      "loss_B": "151/100",
+      "gap": "51/100",
+      "distinguishing_queries": [
+        1,
+        2
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_plus_decoy",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        1
+      ],
+      "epsilon": "51/100",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        1
+      ],
+      "epsilon": "51/100",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "101/50",
+      "loss_B": "151/100",
+      "gap": "51/100",
+      "distinguishing_queries": [
+        0,
+        2
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_plus_decoy",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        2
+      ],
+      "epsilon": "1/2",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        2
+      ],
+      "epsilon": "1/2",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "101/50",
+      "loss_B": "38/25",
+      "gap": "1/2",
+      "distinguishing_queries": [
+        1
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_plus_decoy",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0,
+        1
+      ],
+      "epsilon": "1/100",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        0,
+        1
+      ],
+      "epsilon": "1/100",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "101/50",
+      "loss_B": "201/100",
+      "gap": "1/100",
+      "distinguishing_queries": [
+        2
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_plus_decoy",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0,
+        2
+      ],
+      "epsilon": "1/2",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        0,
+        2
+      ],
+      "epsilon": "1/2",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "101/50",
+      "loss_B": "38/25",
+      "gap": "1/2",
+      "distinguishing_queries": [
+        1
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_plus_decoy",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        1,
+        2
+      ],
+      "epsilon": "1/2",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    },
+    {
+      "selected": [
+        1,
+        2
+      ],
+      "epsilon": "1/2",
+      "relation": ">=",
+      "status": "sat",
+      "loss_A": "101/50",
+      "loss_B": "38/25",
+      "gap": "1/2",
+      "distinguishing_queries": [
+        0
+      ],
+      "independent_fraction_check": "passed",
+      "instance": "chain_plus_decoy",
+      "type": "attainment"
+    },
+    {
+      "selected": [
+        0,
+        1,
+        2
+      ],
+      "epsilon": "0",
+      "relation": ">",
+      "status": "unsat",
+      "instance": "chain_plus_decoy",
+      "type": "upper_bound"
+    }
+  ],
+  "z3_version": "5.1.0.0",
+  "greedy_example_widths": [
+    {
+      "selected": [],
+      "worst_width": "51/100"
+    },
+    {
+      "selected": [
+        "x1"
+      ],
+      "worst_width": "51/100"
+    },
+    {
+      "selected": [
+        "x2"
+      ],
+      "worst_width": "51/100"
+    },
+    {
+      "selected": [
+        "decoy_x1"
+      ],
+      "worst_width": "1/2"
+    },
+    {
+      "selected": [
+        "x1",
+        "x2"
+      ],
+      "worst_width": "1/100"
+    },
+    {
+      "selected": [
+        "x1",
+        "decoy_x1"
+      ],
+      "worst_width": "1/2"
+    },
+    {
+      "selected": [
+        "x2",
+        "decoy_x1"
+      ],
+      "worst_width": "1/2"
+    },
+    {
+      "selected": [
+        "x1",
+        "x2",
+        "decoy_x1"
+      ],
+      "worst_width": "0"
+    }
+  ],
+  "six_bank_optimum": {
+    "status": "optimal",
+    "selected": [
+      0,
+      1
+    ],
+    "cost": "2",
+    "epsilon": "0",
+    "cuts": [
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "history": [
+      {
+        "selected": [],
+        "epsilon": "0",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "15/8",
+        "loss_B": "7/4",
+        "gap": "1/8",
+        "distinguishing_queries": [
+          0,
+          1
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          0
+        ],
+        "epsilon": "0",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "2",
+        "loss_B": "3/2",
+        "gap": "1/2",
+        "distinguishing_queries": [
+          1
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          1
+        ],
+        "epsilon": "0",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "2",
+        "loss_B": "7/4",
+        "gap": "1/4",
+        "distinguishing_queries": [
+          0
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          0,
+          1
+        ],
+        "epsilon": "0",
+        "relation": ">",
+        "status": "unsat"
+      }
+    ]
+  },
+  "combined_optimum": {
+    "status": "optimal",
+    "selected": [
+      0,
+      1
+    ],
+    "cost": "2",
+    "epsilon": "1/100",
+    "cuts": [
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "history": [
+      {
+        "selected": [],
+        "epsilon": "1/100",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "177/100",
+        "loss_B": "38/25",
+        "gap": "1/4",
+        "distinguishing_queries": [
+          0,
+          1
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          0
+        ],
+        "epsilon": "1/100",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "101/50",
+        "loss_B": "38/25",
+        "gap": "1/2",
+        "distinguishing_queries": [
+          1
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          1
+        ],
+        "epsilon": "1/100",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "101/50",
+        "loss_B": "177/100",
+        "gap": "1/4",
+        "distinguishing_queries": [
+          0
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          0,
+          1
+        ],
+        "epsilon": "1/100",
+        "relation": ">",
+        "status": "unsat"
+      }
+    ]
+  },
+  "combined_impossibility": {
+    "status": "infeasible",
+    "epsilon": "9/1000",
+    "cuts": [
+      [
+        2
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "history": [
+      {
+        "selected": [],
+        "epsilon": "9/1000",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "177/100",
+        "loss_B": "44/25",
+        "gap": "1/100",
+        "distinguishing_queries": [
+          2
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          2
+        ],
+        "epsilon": "9/1000",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "101/50",
+        "loss_B": "177/100",
+        "gap": "1/4",
+        "distinguishing_queries": [
+          0
+        ],
+        "independent_fraction_check": "passed"
+      },
+      {
+        "selected": [
+          0,
+          2
+        ],
+        "epsilon": "9/1000",
+        "relation": ">",
+        "status": "sat",
+        "loss_A": "101/50",
+        "loss_B": "38/25",
+        "gap": "1/2",
+        "distinguishing_queries": [
+          1
+        ],
+        "independent_fraction_check": "passed"
+      }
+    ]
+  }
+}

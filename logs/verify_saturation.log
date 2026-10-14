@@ -1,0 +1,10 @@
+{
+ "exact_cases": 239,
+ "z3_version": "5.1.0",
+ "max_seconds": 0.050193661000776046
+}
+checks 39 unsat 24 sat 15
+
+real	0m1.351s
+user	0m1.276s
+sys	0m0.036s

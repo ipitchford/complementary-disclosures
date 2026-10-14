@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "candidate_version": "2.0.0-candidate",
+  "observed_date": "2026-10-14",
+  "scope": "Full-study generation and portable retained-record replay environments; not an inference about historical execution.",
+  "python": "3.14.7",
+  "python_build": "main, Aug 5 2026, 10:29:49; Clang 21.0.0 (clang-2100.1.1.101)",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "z3_solver": "5.1.0",
+  "full_study_z3_distribution_metadata": "No pip distribution metadata; library version observed directly",
+  "portable_check_environment": {"python": "3.13.5", "pypi_distribution": "z3-solver", "distribution_version": "4.15.4.0", "evidence": "Personally repeated normal and optimized extension checks and strict complete 44-record assurance replay: PASS"},
+  "arithmetic": "fractions.Fraction for rational replay; Z3 nonlinear real arithmetic for solver queries",
+  "python_modes_checked": ["normal", "-O"],
+  "bytecode_writes_disabled": true,
+  "fast_check_dependencies": ["Python standard library", "z3-solver"],
+  "numpy_scipy_required_for_fast_checks": false,
+  "fresh_44_instance_study_status": "complete_with_29_width_complete_14_unresolved_1_zero_shock",
+  "historical_environment": "See supplied historical artifacts; not inferred from the fresh environment.",
+  "integrity_authority": "SHA256SUMS and final release receipt, rather than this environment description"
+}

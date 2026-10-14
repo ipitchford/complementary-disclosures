@@ -1,0 +1,934 @@
+{
+ "args": {
+  "sizes": "8,10",
+  "edges_factor": 2.0,
+  "menu": 3,
+  "per": 8,
+  "tol": 64,
+  "timeout": 40,
+  "tag": "dag_menu3_b",
+  "topology": "dag",
+  "edges_add": 2
+ },
+ "records": [
+  {
+   "name": "dag_n8_e18_s8000",
+   "n": 8,
+   "edges": 18,
+   "seed": 8000,
+   "menu": 3,
+   "shock": "11/4",
+   "shocked": 1,
+   "status": "ok",
+   "oracle_calls": 51,
+   "oracle_seconds": 285.3667162800011,
+   "max_call_seconds": 14.03196484199998,
+   "unknown_calls": 0,
+   "bisection_seconds": 285.98045864799997,
+   "widths": {
+    "()": [
+     "883339/1281280",
+     "3002369/4100096"
+    ],
+    "(0,)": [
+     "442291/640640",
+     "1503049/2050048"
+    ],
+    "(1,)": [
+     "883339/1281280",
+     "3002369/4100096"
+    ],
+    "(2,)": [
+     "883339/1281280",
+     "3002369/4100096"
+    ],
+    "(0, 1)": [
+     "442291/640640",
+     "1503049/2050048"
+    ],
+    "(0, 2)": [
+     "442291/640640",
+     "1503049/2050048"
+    ],
+    "(1, 2)": [
+     "883339/1281280",
+     "3002369/4100096"
+    ],
+    "(0, 1, 2)": [
+     "442291/640640",
+     "1503049/2050048"
+    ]
+   },
+   "initial_width": [
+    "883339/1281280",
+    "3002369/4100096"
+   ],
+   "initial_width_over_shock": 0.25069788166379076,
+   "full_menu_width": [
+    "442291/640640",
+    "1503049/2050048"
+   ],
+   "certified_zero_value_singletons": [
+    1,
+    2
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "3002369/8200192",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 2,
+    "cuts": [
+     [
+      0
+     ],
+     []
+    ],
+    "seconds": 0.16949523800030875
+   },
+   "wall_seconds": 286.1504442119999
+  },
+  {
+   "name": "dag_n8_e18_s8001",
+   "n": 8,
+   "edges": 18,
+   "seed": 8001,
+   "menu": 3,
+   "shock": "21/4",
+   "shocked": 0,
+   "status": "unknown",
+   "oracle_calls": 2,
+   "oracle_seconds": 54.40228831100012,
+   "max_call_seconds": 40.13944372900005,
+   "unknown_calls": 1,
+   "partial_widths": {},
+   "failed_subset": [],
+   "failed_bracket": [
+    "0",
+    "21/8"
+   ],
+   "wall_seconds": 54.45242604099985
+  },
+  {
+   "name": "dag_n8_e18_s8002",
+   "n": 8,
+   "edges": 18,
+   "seed": 8002,
+   "menu": 3,
+   "shock": "7/4",
+   "shocked": 1,
+   "status": "unknown",
+   "oracle_calls": 16,
+   "oracle_seconds": 215.21947895099947,
+   "max_call_seconds": 40.13490662899949,
+   "unknown_calls": 1,
+   "partial_widths": {
+    "()": [
+     "93/416",
+     "833/3328"
+    ],
+    "(0,)": [
+     "113/512",
+     "1015/4096"
+    ]
+   },
+   "failed_subset": [
+    1
+   ],
+   "failed_bracket": [
+    "57/256",
+    "7/16"
+   ],
+   "wall_seconds": 215.4965447730001
+  },
+  {
+   "name": "dag_n8_e18_s8003",
+   "n": 8,
+   "edges": 18,
+   "seed": 8003,
+   "menu": 3,
+   "shock": "3/2",
+   "shocked": 1,
+   "status": "ok",
+   "oracle_calls": 50,
+   "oracle_seconds": 1.5670945090014357,
+   "max_call_seconds": 0.0925190649995784,
+   "unknown_calls": 0,
+   "bisection_seconds": 2.4032111219994476,
+   "widths": {
+    "()": [
+     "315/1024",
+     "1329/4096"
+    ],
+    "(0,)": [
+     "315/1024",
+     "1329/4096"
+    ],
+    "(1,)": [
+     "5/16",
+     "21/64"
+    ],
+    "(2,)": [
+     "5/16",
+     "21/64"
+    ],
+    "(0, 1)": [
+     "5/16",
+     "21/64"
+    ],
+    "(0, 2)": [
+     "5/16",
+     "21/64"
+    ],
+    "(1, 2)": [
+     "5/16",
+     "21/64"
+    ],
+    "(0, 1, 2)": [
+     "5/16",
+     "21/64"
+    ]
+   },
+   "initial_width": [
+    "315/1024",
+    "1329/4096"
+   ],
+   "initial_width_over_shock": 0.205078125,
+   "full_menu_width": [
+    "5/16",
+    "21/64"
+   ],
+   "certified_zero_value_singletons": [
+    0
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "1329/8192",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 1,
+    "cuts": [
+     []
+    ],
+    "seconds": 0.04897676099972159
+   },
+   "wall_seconds": 2.4527449580000393
+  },
+  {
+   "name": "dag_n8_e18_s8004",
+   "n": 8,
+   "edges": 18,
+   "seed": 8004,
+   "menu": 3,
+   "shock": "1/2",
+   "shocked": 2,
+   "status": "ok",
+   "oracle_calls": 48,
+   "oracle_seconds": 0.3872523950012692,
+   "max_call_seconds": 0.01372375800019654,
+   "unknown_calls": 0,
+   "bisection_seconds": 1.1266661170002408,
+   "widths": {
+    "()": [
+     "0",
+     "1/128"
+    ],
+    "(0,)": [
+     "0",
+     "1/128"
+    ],
+    "(1,)": [
+     "0",
+     "1/128"
+    ],
+    "(2,)": [
+     "0",
+     "1/128"
+    ],
+    "(0, 1)": [
+     "0",
+     "1/128"
+    ],
+    "(0, 2)": [
+     "0",
+     "1/128"
+    ],
+    "(1, 2)": [
+     "0",
+     "1/128"
+    ],
+    "(0, 1, 2)": [
+     "0",
+     "1/128"
+    ]
+   },
+   "initial_width": [
+    "0",
+    "1/128"
+   ],
+   "initial_width_over_shock": 0.0,
+   "full_menu_width": [
+    "0",
+    "1/128"
+   ],
+   "certified_zero_value_singletons": [
+    0,
+    1,
+    2
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "wall_seconds": 1.1270853179994447
+  },
+  {
+   "name": "dag_n8_e18_s8005",
+   "n": 8,
+   "edges": 18,
+   "seed": 8005,
+   "menu": 3,
+   "shock": "17/4",
+   "shocked": 1,
+   "status": "unknown",
+   "oracle_calls": 1,
+   "oracle_seconds": 40.173864208999476,
+   "max_call_seconds": 40.173864208999476,
+   "unknown_calls": 1,
+   "partial_widths": {},
+   "failed_subset": [],
+   "failed_bracket": [
+    "0",
+    "17/4"
+   ],
+   "wall_seconds": 40.21041314299964
+  },
+  {
+   "name": "dag_n8_e18_s8006",
+   "n": 8,
+   "edges": 18,
+   "seed": 8006,
+   "menu": 3,
+   "shock": "9/4",
+   "shocked": 1,
+   "status": "ok",
+   "oracle_calls": 51,
+   "oracle_seconds": 41.1619079869979,
+   "max_call_seconds": 14.024129331999575,
+   "unknown_calls": 0,
+   "bisection_seconds": 41.91069332300049,
+   "widths": {
+    "()": [
+     "18/55",
+     "2511/7040"
+    ],
+    "(0,)": [
+     "567/1760",
+     "4977/14080"
+    ],
+    "(1,)": [
+     "567/1760",
+     "1251/3520"
+    ],
+    "(2,)": [
+     "18/55",
+     "2511/7040"
+    ],
+    "(0, 1)": [
+     "567/1760",
+     "1251/3520"
+    ],
+    "(0, 2)": [
+     "567/1760",
+     "4977/14080"
+    ],
+    "(1, 2)": [
+     "567/1760",
+     "1251/3520"
+    ],
+    "(0, 1, 2)": [
+     "567/1760",
+     "1251/3520"
+    ]
+   },
+   "initial_width": [
+    "18/55",
+    "2511/7040"
+   ],
+   "initial_width_over_shock": 0.14545454545454545,
+   "full_menu_width": [
+    "567/1760",
+    "1251/3520"
+   ],
+   "certified_zero_value_singletons": [
+    2
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "2511/14080",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 2,
+    "cuts": [
+     [
+      0,
+      1
+     ],
+     []
+    ],
+    "seconds": 0.0714008750001085
+   },
+   "wall_seconds": 41.982654051999816
+  },
+  {
+   "name": "dag_n8_e18_s8007",
+   "n": 8,
+   "edges": 18,
+   "seed": 8007,
+   "menu": 3,
+   "shock": "9/2",
+   "shocked": 1,
+   "status": "unknown",
+   "oracle_calls": 14,
+   "oracle_seconds": 194.941643406999,
+   "max_call_seconds": 40.145559547999255,
+   "unknown_calls": 1,
+   "partial_widths": {
+    "()": [
+     "56185/79872",
+     "329581/425984"
+    ],
+    "(0,)": [
+     "10849/15360",
+     "7947/10240"
+    ]
+   },
+   "failed_subset": [
+    1
+   ],
+   "failed_bracket": [
+    "0",
+    "9/4"
+   ],
+   "wall_seconds": 195.1749129180007
+  },
+  {
+   "name": "dag_n10_e22_s10000",
+   "n": 10,
+   "edges": 22,
+   "seed": 10000,
+   "menu": 3,
+   "shock": "19/4",
+   "shocked": 1,
+   "status": "ok",
+   "oracle_calls": 51,
+   "oracle_seconds": 11.230538403002356,
+   "max_call_seconds": 1.5873685870001282,
+   "unknown_calls": 0,
+   "bisection_seconds": 11.962106121000033,
+   "widths": {
+    "()": [
+     "3445/3072",
+     "19/16"
+    ],
+    "(0,)": [
+     "541/1440",
+     "25679/57600"
+    ],
+    "(1,)": [
+     "4987/5120",
+     "4013/3840"
+    ],
+    "(2,)": [
+     "3445/3072",
+     "19/16"
+    ],
+    "(0, 1)": [
+     "161/720",
+     "19/64"
+    ],
+    "(0, 2)": [
+     "541/1440",
+     "25679/57600"
+    ],
+    "(1, 2)": [
+     "4987/5120",
+     "4013/3840"
+    ],
+    "(0, 1, 2)": [
+     "161/720",
+     "19/64"
+    ]
+   },
+   "initial_width": [
+    "3445/3072",
+    "19/16"
+   ],
+   "initial_width_over_shock": 0.23608826754385964,
+   "full_menu_width": [
+    "161/720",
+    "19/64"
+   ],
+   "certified_zero_value_singletons": [
+    2
+   ],
+   "certified_informative_full_menu": true,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "19/32",
+    "status": "optimal",
+    "selected": [
+     0
+    ],
+    "oracle_calls": 2,
+    "cuts": [
+     [
+      0,
+      1
+     ]
+    ],
+    "seconds": 0.4199254400000427
+   },
+   "wall_seconds": 12.385606615999677
+  },
+  {
+   "name": "dag_n10_e22_s10001",
+   "n": 10,
+   "edges": 22,
+   "seed": 10001,
+   "menu": 3,
+   "shock": "5",
+   "shocked": 2,
+   "status": "ok",
+   "oracle_calls": 51,
+   "oracle_seconds": 464.30486156699317,
+   "max_call_seconds": 14.07217138299984,
+   "unknown_calls": 0,
+   "bisection_seconds": 451.2871552479992,
+   "widths": {
+    "()": [
+     "997/704",
+     "8403/5632"
+    ],
+    "(0,)": [
+     "997/704",
+     "8403/5632"
+    ],
+    "(1,)": [
+     "19/44",
+     "87/176"
+    ],
+    "(2,)": [
+     "19/44",
+     "87/176"
+    ],
+    "(0, 1)": [
+     "19/44",
+     "87/176"
+    ],
+    "(0, 2)": [
+     "19/44",
+     "87/176"
+    ],
+    "(1, 2)": [
+     "19/44",
+     "87/176"
+    ],
+    "(0, 1, 2)": [
+     "19/44",
+     "87/176"
+    ]
+   },
+   "initial_width": [
+    "997/704",
+    "8403/5632"
+   ],
+   "initial_width_over_shock": 0.2832386363636364,
+   "full_menu_width": [
+    "19/44",
+    "87/176"
+   ],
+   "certified_zero_value_singletons": [
+    0
+   ],
+   "certified_informative_full_menu": true,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "8403/11264",
+    "status": "optimal",
+    "selected": [
+     1
+    ],
+    "oracle_calls": 2,
+    "cuts": [
+     [
+      1,
+      2
+     ]
+    ],
+    "seconds": 14.098111344000245
+   },
+   "wall_seconds": 465.38581840500046
+  },
+  {
+   "name": "dag_n10_e22_s10002",
+   "n": 10,
+   "edges": 22,
+   "seed": 10002,
+   "menu": 3,
+   "shock": "13/4",
+   "shocked": 3,
+   "status": "ok",
+   "oracle_calls": 48,
+   "oracle_seconds": 425.41295571299725,
+   "max_call_seconds": 14.082668621000266,
+   "unknown_calls": 0,
+   "bisection_seconds": 426.2945603779999,
+   "widths": {
+    "()": [
+     "523/952",
+     "4503/7616"
+    ],
+    "(0,)": [
+     "523/952",
+     "4503/7616"
+    ],
+    "(1,)": [
+     "67/119",
+     "106083/174080"
+    ],
+    "(2,)": [
+     "523/952",
+     "4503/7616"
+    ],
+    "(0, 1)": [
+     "71/136",
+     "3103/5440"
+    ],
+    "(0, 2)": [
+     "523/952",
+     "4503/7616"
+    ],
+    "(1, 2)": [
+     "67/119",
+     "106083/174080"
+    ],
+    "(0, 1, 2)": [
+     "71/136",
+     "3103/5440"
+    ]
+   },
+   "initial_width": [
+    "523/952",
+    "4503/7616"
+   ],
+   "initial_width_over_shock": 0.16903684550743375,
+   "full_menu_width": [
+    "71/136",
+    "3103/5440"
+   ],
+   "certified_zero_value_singletons": [
+    0,
+    2
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "4503/15232",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 1,
+    "cuts": [
+     []
+    ],
+    "seconds": 0.04293219700048212
+   },
+   "wall_seconds": 426.3379398249999
+  },
+  {
+   "name": "dag_n10_e22_s10003",
+   "n": 10,
+   "edges": 22,
+   "seed": 10003,
+   "menu": 3,
+   "shock": "0",
+   "shocked": 4,
+   "status": "zero_shock",
+   "oracle_calls": 0,
+   "oracle_seconds": 0.0,
+   "max_call_seconds": 0.0,
+   "unknown_calls": 0,
+   "wall_seconds": 0.0004802430003110203
+  },
+  {
+   "name": "dag_n10_e22_s10004",
+   "n": 10,
+   "edges": 22,
+   "seed": 10004,
+   "menu": 3,
+   "shock": "3/2",
+   "shocked": 4,
+   "status": "ok",
+   "oracle_calls": 50,
+   "oracle_seconds": 1.3300288340005864,
+   "max_call_seconds": 0.061804594999557594,
+   "unknown_calls": 0,
+   "bisection_seconds": 2.204693290999785,
+   "widths": {
+    "()": [
+     "31/128",
+     "33/128"
+    ],
+    "(0,)": [
+     "31/128",
+     "33/128"
+    ],
+    "(1,)": [
+     "31/128",
+     "33/128"
+    ],
+    "(2,)": [
+     "31/128",
+     "33/128"
+    ],
+    "(0, 1)": [
+     "31/128",
+     "33/128"
+    ],
+    "(0, 2)": [
+     "31/128",
+     "33/128"
+    ],
+    "(1, 2)": [
+     "31/128",
+     "33/128"
+    ],
+    "(0, 1, 2)": [
+     "31/128",
+     "33/128"
+    ]
+   },
+   "initial_width": [
+    "31/128",
+    "33/128"
+   ],
+   "initial_width_over_shock": 0.16145833333333334,
+   "full_menu_width": [
+    "31/128",
+    "33/128"
+   ],
+   "certified_zero_value_singletons": [
+    0,
+    1,
+    2
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "33/256",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 1,
+    "cuts": [
+     []
+    ],
+    "seconds": 0.05337676300041494
+   },
+   "wall_seconds": 2.2587943059997997
+  },
+  {
+   "name": "dag_n10_e22_s10005",
+   "n": 10,
+   "edges": 22,
+   "seed": 10005,
+   "menu": 3,
+   "shock": "5",
+   "shocked": 3,
+   "status": "unknown",
+   "oracle_calls": 1,
+   "oracle_seconds": 40.178670676000365,
+   "max_call_seconds": 40.178670676000365,
+   "unknown_calls": 1,
+   "partial_widths": {},
+   "failed_subset": [],
+   "failed_bracket": [
+    "0",
+    "5"
+   ],
+   "wall_seconds": 40.217244190999736
+  },
+  {
+   "name": "dag_n10_e22_s10006",
+   "n": 10,
+   "edges": 22,
+   "seed": 10006,
+   "menu": 3,
+   "shock": "7/2",
+   "shocked": 0,
+   "status": "ok",
+   "oracle_calls": 50,
+   "oracle_seconds": 12.8315393699977,
+   "max_call_seconds": 0.7143722900000284,
+   "unknown_calls": 0,
+   "bisection_seconds": 13.784195599999293,
+   "widths": {
+    "()": [
+     "35/192",
+     "7/32"
+    ],
+    "(0,)": [
+     "35/192",
+     "7/32"
+    ],
+    "(1,)": [
+     "35/192",
+     "7/32"
+    ],
+    "(2,)": [
+     "35/192",
+     "7/32"
+    ],
+    "(0, 1)": [
+     "35/192",
+     "7/32"
+    ],
+    "(0, 2)": [
+     "35/192",
+     "7/32"
+    ],
+    "(1, 2)": [
+     "35/192",
+     "7/32"
+    ],
+    "(0, 1, 2)": [
+     "35/192",
+     "7/32"
+    ]
+   },
+   "initial_width": [
+    "35/192",
+    "7/32"
+   ],
+   "initial_width_over_shock": 0.052083333333333336,
+   "full_menu_width": [
+    "35/192",
+    "7/32"
+   ],
+   "certified_zero_value_singletons": [
+    0,
+    1,
+    2
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "7/64",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 1,
+    "cuts": [
+     []
+    ],
+    "seconds": 0.06326478499977384
+   },
+   "wall_seconds": 13.847946409000542
+  },
+  {
+   "name": "dag_n10_e22_s10007",
+   "n": 10,
+   "edges": 22,
+   "seed": 10007,
+   "menu": 3,
+   "shock": "11/4",
+   "shocked": 4,
+   "status": "ok",
+   "oracle_calls": 53,
+   "oracle_seconds": 668.4097815510004,
+   "max_call_seconds": 30.117761695999434,
+   "unknown_calls": 0,
+   "bisection_seconds": 665.396418067,
+   "widths": {
+    "()": [
+     "27/32",
+     "7/8"
+    ],
+    "(0,)": [
+     "109/128",
+     "113/128"
+    ],
+    "(1,)": [
+     "27/32",
+     "7/8"
+    ],
+    "(2,)": [
+     "27/32",
+     "7/8"
+    ],
+    "(0, 1)": [
+     "109/128",
+     "113/128"
+    ],
+    "(0, 2)": [
+     "109/128",
+     "113/128"
+    ],
+    "(1, 2)": [
+     "27/32",
+     "7/8"
+    ],
+    "(0, 1, 2)": [
+     "109/128",
+     "113/128"
+    ]
+   },
+   "initial_width": [
+    "27/32",
+    "7/8"
+   ],
+   "initial_width_over_shock": 0.3068181818181818,
+   "full_menu_width": [
+    "109/128",
+    "113/128"
+   ],
+   "certified_zero_value_singletons": [
+    1,
+    2
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "7/16",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 4,
+    "cuts": [
+     [
+      0,
+      2
+     ],
+     [
+      2
+     ],
+     [
+      0
+     ],
+     []
+    ],
+    "seconds": 4.121655621999707
+   },
+   "wall_seconds": 669.5186552510004
+  }
+ ],
+ "z3_version": "5.1.0"
+}

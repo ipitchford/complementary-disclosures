@@ -1,0 +1,63 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+  "exact_clearing_cases": 408,
+  "endpoint_width_checks": 252,
+  "fraction_tests": "passed",
+  "z3_version": "5.1.0.0",
+  "greedy_example_widths": [
+    {
+      "selected": [],
+      "worst_width": "51/100"
+    },
+    {
+      "selected": [
+        "x1"
+      ],
+      "worst_width": "51/100"
+    },
+    {
+      "selected": [
+        "x2"
+      ],
+      "worst_width": "51/100"
+    },
+    {
+      "selected": [
+        "decoy_x1"
+      ],
+      "worst_width": "1/2"
+    },
+    {
+      "selected": [
+        "x1",
+        "x2"
+      ],
+      "worst_width": "1/100"
+    },
+    {
+      "selected": [
+        "x1",
+        "decoy_x1"
+      ],
+      "worst_width": "1/2"
+    },
+    {
+      "selected": [
+        "x2",
+        "decoy_x1"
+      ],
+      "worst_width": "1/2"
+    },
+    {
+      "selected": [
+        "x1",
+        "x2",
+        "decoy_x1"
+      ],
+      "worst_width": "0"
+    }
+  ]
+}
+Full-network solver checks: 31
+Optimal threshold and budget-impossibility checks: passed

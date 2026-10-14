@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "provenance": "fresh_repaired_witness_retaining_run",
+ "started_utc": "2026-10-14T09:48:31.305194+00:00",
+ "planned_instances": 1,
+ "workers": 1,
+ "z3_version": "5.1.0",
+ "records": [
+  {
+   "name": "dag_n5_e12_s5000",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 1,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 3.304206958040595,
+   "index": 0,
+   "file": "instance-000.json"
+  }
+ ],
+ "code_sha256": {
+  "netinfo.py": "a873ac23370d67abcdc84f9efd20a8f7a43a618db6115c30690f5418f43fbfb7",
+  "study_random.py": "ef31835dfacc973fcf4e6c152530303941bd3a4055b73d537999e1f1dcfa527b"
+ },
+ "finished_utc": "2026-10-14T09:48:34.733026+00:00"
+}

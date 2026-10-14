@@ -1,0 +1,7 @@
+name,n,edges,menu,status,shock,initial_width_lo,initial_width_hi,full_menu_width_hi,zero_value_singletons,complementarity,violations,oracle_calls,oracle_seconds,max_call_seconds,unknown_calls,selection_status,selected,wall_seconds
+dag_n6_e15_s6000,6,15,4,ok,1,31/192,11/64,11/64,4,False,0,100,4.5,0.086,0,infeasible,,5.71
+dag_n6_e15_s6001,6,15,4,unknown,3,,,,0,,0,7,110.412,40.125,1,,,110.53
+dag_n6_e15_s6002,6,15,4,ok,7/2,1329/1408,2807/2816,23/32,2,False,0,91,1023.736,14.057,0,infeasible,,1024.97
+dag_n6_e15_s6003,6,15,4,ok,3/4,7/64,21/176,21/176,3,False,0,103,1.719,0.184,0,infeasible,,3.09
+dag_n6_e15_s6004,6,15,4,unknown,19/4,,,,0,,0,2,54.167,40.142,1,,,54.2
+dag_n6_e15_s6005,6,15,4,ok,5/4,1/48,5/128,5/128,1,False,0,102,5.141,0.17,0,infeasible,,6.46

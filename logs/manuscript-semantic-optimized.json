@@ -1,0 +1,24 @@
+{
+  "ratio_table_cells": 15,
+  "package_choices": 6,
+  "noise_examples": 2,
+  "quantile_fraction_bracket": [
+    "0.07331318975452597208837005527663868040273965506323447877107370609277248",
+    "0.07331318975452597208837005527663868040273965506323447877107370609277255"
+  ],
+  "scope": "Specified numerical consequences; not universal/formal proof verification",
+  "status": "PASS",
+  "negative_controls": [
+    "half-up tie rounded down",
+    "ratio columns swapped",
+    "package width changed",
+    "package row omitted",
+    "noise numerator changed",
+    "relative residual changed",
+    "quantile tail reversed"
+  ],
+  "optimized": 1,
+  "manuscript_sha256": "fceed73b77c353cc2343b071a1718da1e1661d9628252b0b0cb63459ebb68059",
+  "code_sha256": "65dc21f4f4ae687db5e6a6add802f2279bf6f9276a57ff89c13d7d08137f3023",
+  "python_version": "3.13.5"
+}

@@ -1,0 +1,223 @@
+{
+ "args": {
+  "sizes": "4,5,6",
+  "edges_factor": 2.0,
+  "menu": 3,
+  "per": 2,
+  "tol": 64,
+  "timeout": 40,
+  "tag": "cyclic_menu3",
+  "topology": "cyclic",
+  "edges_add": 2
+ },
+ "records": [
+  {
+   "name": "rand_n4_e10_s4000",
+   "n": 4,
+   "edges": 10,
+   "seed": 4000,
+   "menu": 3,
+   "shock": "5/2",
+   "shocked": 2,
+   "status": "unknown",
+   "oracle_calls": 1,
+   "oracle_seconds": 40.09317762799947,
+   "max_call_seconds": 40.09317762799947,
+   "unknown_calls": 1,
+   "partial_widths": {},
+   "failed_subset": [],
+   "failed_bracket": [
+    "0",
+    "5/2"
+   ],
+   "wall_seconds": 40.13592422599959
+  },
+  {
+   "name": "rand_n4_e10_s4001",
+   "n": 4,
+   "edges": 10,
+   "seed": 4001,
+   "menu": 3,
+   "shock": "7/4",
+   "shocked": 0,
+   "status": "unknown",
+   "oracle_calls": 1,
+   "oracle_seconds": 40.09738944199944,
+   "max_call_seconds": 40.09738944199944,
+   "unknown_calls": 1,
+   "partial_widths": {},
+   "failed_subset": [],
+   "failed_bracket": [
+    "0",
+    "7/4"
+   ],
+   "wall_seconds": 40.12642660599977
+  },
+  {
+   "name": "rand_n5_e12_s5000",
+   "n": 5,
+   "edges": 12,
+   "seed": 5000,
+   "menu": 3,
+   "shock": "5/4",
+   "shocked": 2,
+   "status": "unknown",
+   "oracle_calls": 1,
+   "oracle_seconds": 40.10538430699944,
+   "max_call_seconds": 40.10538430699944,
+   "unknown_calls": 1,
+   "partial_widths": {},
+   "failed_subset": [],
+   "failed_bracket": [
+    "0",
+    "5/4"
+   ],
+   "wall_seconds": 40.12650780399963
+  },
+  {
+   "name": "rand_n5_e12_s5001",
+   "n": 5,
+   "edges": 12,
+   "seed": 5001,
+   "menu": 3,
+   "shock": "1",
+   "shocked": 4,
+   "status": "unknown",
+   "oracle_calls": 31,
+   "oracle_seconds": 263.31276532300035,
+   "max_call_seconds": 40.096415548999175,
+   "unknown_calls": 1,
+   "partial_widths": {
+    "()": [
+     "2063623/131923968",
+     "1/32"
+    ],
+    "(0,)": [
+     "4253/270336",
+     "1/32"
+    ],
+    "(1,)": [
+     "0",
+     "1/64"
+    ],
+    "(2,)": [
+     "0",
+     "1/64"
+    ],
+    "(0, 1)": [
+     "0",
+     "1/64"
+    ]
+   },
+   "failed_subset": [
+    0,
+    2
+   ],
+   "failed_bracket": [
+    "0",
+    "1"
+   ],
+   "wall_seconds": 263.6371436419995
+  },
+  {
+   "name": "rand_n6_e14_s6000",
+   "n": 6,
+   "edges": 14,
+   "seed": 6000,
+   "menu": 3,
+   "shock": "3/2",
+   "shocked": 0,
+   "status": "unknown",
+   "oracle_calls": 1,
+   "oracle_seconds": 40.107585585999914,
+   "max_call_seconds": 40.107585585999914,
+   "unknown_calls": 1,
+   "partial_widths": {},
+   "failed_subset": [],
+   "failed_bracket": [
+    "0",
+    "3/2"
+   ],
+   "wall_seconds": 40.14080355199985
+  },
+  {
+   "name": "rand_n6_e14_s6001",
+   "n": 6,
+   "edges": 14,
+   "seed": 6001,
+   "menu": 3,
+   "shock": "7/4",
+   "shocked": 2,
+   "status": "ok",
+   "oracle_calls": 51,
+   "oracle_seconds": 136.41525955400175,
+   "max_call_seconds": 14.390956357000505,
+   "unknown_calls": 0,
+   "bisection_seconds": 136.80886557800022,
+   "widths": {
+    "()": [
+     "21/121",
+     "1519/7744"
+    ],
+    "(0,)": [
+     "21/121",
+     "1519/7744"
+    ],
+    "(1,)": [
+     "329/1936",
+     "1505/7744"
+    ],
+    "(2,)": [
+     "329/1936",
+     "1505/7744"
+    ],
+    "(0, 1)": [
+     "329/1936",
+     "1505/7744"
+    ],
+    "(0, 2)": [
+     "329/1936",
+     "1505/7744"
+    ],
+    "(1, 2)": [
+     "2569/15488",
+     "5957/30976"
+    ],
+    "(0, 1, 2)": [
+     "2569/15488",
+     "5957/30976"
+    ]
+   },
+   "initial_width": [
+    "21/121",
+    "1519/7744"
+   ],
+   "initial_width_over_shock": 0.09917355371900827,
+   "full_menu_width": [
+    "2569/15488",
+    "5957/30976"
+   ],
+   "certified_zero_value_singletons": [
+    0
+   ],
+   "certified_informative_full_menu": false,
+   "certified_submodularity_violations": [],
+   "complementarity": false,
+   "selection": {
+    "epsilon": "1519/15488",
+    "status": "infeasible",
+    "selected": null,
+    "oracle_calls": 2,
+    "cuts": [
+     [
+      1
+     ],
+     []
+    ],
+    "seconds": 0.40080812699943635
+   },
+   "wall_seconds": 137.2101986509997
+  }
+ ],
+ "z3_version": "5.1.0"
+}

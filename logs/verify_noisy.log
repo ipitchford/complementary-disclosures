@@ -1,0 +1,269 @@
+{
+ "noisy_vertex_enumeration": [
+  {
+   "m": 2,
+   "beta": "1",
+   "eta": "1/100",
+   "vertex_max": "49/2500",
+   "predicted": "49/2500"
+  },
+  {
+   "m": 2,
+   "beta": "1",
+   "eta": "1/20",
+   "vertex_max": "9/100",
+   "predicted": "9/100"
+  },
+  {
+   "m": 2,
+   "beta": "1/4",
+   "eta": "1/100",
+   "vertex_max": "98/3125",
+   "predicted": "98/3125"
+  },
+  {
+   "m": 2,
+   "beta": "1/4",
+   "eta": "1/20",
+   "vertex_max": "18/125",
+   "predicted": "18/125"
+  },
+  {
+   "m": 3,
+   "beta": "1",
+   "eta": "1/100",
+   "vertex_max": "1801/125000",
+   "predicted": "1801/125000"
+  },
+  {
+   "m": 3,
+   "beta": "1",
+   "eta": "1/20",
+   "vertex_max": "61/1000",
+   "predicted": "61/1000"
+  },
+  {
+   "m": 3,
+   "beta": "1/4",
+   "eta": "1/100",
+   "vertex_max": "14408/390625",
+   "predicted": "14408/390625"
+  },
+  {
+   "m": 3,
+   "beta": "1/4",
+   "eta": "1/20",
+   "vertex_max": "488/3125",
+   "predicted": "488/3125"
+  },
+  {
+   "m": 4,
+   "beta": "1",
+   "eta": "1/100",
+   "vertex_max": "58849/6250000",
+   "predicted": "58849/6250000"
+  },
+  {
+   "m": 4,
+   "beta": "1",
+   "eta": "1/20",
+   "vertex_max": "369/10000",
+   "predicted": "369/10000"
+  },
+  {
+   "m": 4,
+   "beta": "1/4",
+   "eta": "1/100",
+   "vertex_max": "1883168/48828125",
+   "predicted": "1883168/48828125"
+  },
+  {
+   "m": 4,
+   "beta": "1/4",
+   "eta": "1/20",
+   "vertex_max": "11808/78125",
+   "predicted": "11808/78125"
+  },
+  {
+   "m": 5,
+   "beta": "1",
+   "eta": "1/100",
+   "vertex_max": "1803001/312500000",
+   "predicted": "1803001/312500000"
+  },
+  {
+   "m": 5,
+   "beta": "1",
+   "eta": "1/20",
+   "vertex_max": "2101/100000",
+   "predicted": "2101/100000"
+  },
+  {
+   "m": 5,
+   "beta": "1/4",
+   "eta": "1/100",
+   "vertex_max": "230784128/6103515625",
+   "predicted": "230784128/6103515625"
+  },
+  {
+   "m": 5,
+   "beta": "1/4",
+   "eta": "1/20",
+   "vertex_max": "268928/1953125",
+   "predicted": "268928/1953125"
+  }
+ ],
+ "reviewer_case_width": "49/2500",
+ "relative_residual_table": [
+  {
+   "m": 1,
+   "eta": "1/1000",
+   "relative_residual": "1/500",
+   "relative_float": 0.002,
+   "small_eta_approx_2m_eta": 0.002
+  },
+  {
+   "m": 1,
+   "eta": "1/100",
+   "relative_residual": "1/50",
+   "relative_float": 0.02,
+   "small_eta_approx_2m_eta": 0.02
+  },
+  {
+   "m": 1,
+   "eta": "1/20",
+   "relative_residual": "1/10",
+   "relative_float": 0.1,
+   "small_eta_approx_2m_eta": 0.1
+  },
+  {
+   "m": 2,
+   "eta": "1/1000",
+   "relative_residual": "499/125000",
+   "relative_float": 0.003992,
+   "small_eta_approx_2m_eta": 0.004
+  },
+  {
+   "m": 2,
+   "eta": "1/100",
+   "relative_residual": "49/1250",
+   "relative_float": 0.0392,
+   "small_eta_approx_2m_eta": 0.04
+  },
+  {
+   "m": 2,
+   "eta": "1/20",
+   "relative_residual": "9/50",
+   "relative_float": 0.18,
+   "small_eta_approx_2m_eta": 0.2
+  },
+  {
+   "m": 3,
+   "eta": "1/1000",
+   "relative_residual": "186751/31250000",
+   "relative_float": 0.005976032,
+   "small_eta_approx_2m_eta": 0.006
+  },
+  {
+   "m": 3,
+   "eta": "1/100",
+   "relative_residual": "1801/31250",
+   "relative_float": 0.057632,
+   "small_eta_approx_2m_eta": 0.06
+  },
+  {
+   "m": 3,
+   "eta": "1/20",
+   "relative_residual": "61/250",
+   "relative_float": 0.244,
+   "small_eta_approx_2m_eta": 0.3
+  },
+  {
+   "m": 4,
+   "eta": "1/1000",
+   "relative_residual": "62125999/7812500000",
+   "relative_float": 0.007952127872,
+   "small_eta_approx_2m_eta": 0.008
+  },
+  {
+   "m": 4,
+   "eta": "1/100",
+   "relative_residual": "58849/781250",
+   "relative_float": 0.07532672,
+   "small_eta_approx_2m_eta": 0.08
+  },
+  {
+   "m": 4,
+   "eta": "1/20",
+   "relative_residual": "369/1250",
+   "relative_float": 0.2952,
+   "small_eta_approx_2m_eta": 0.4
+  },
+  {
+   "m": 6,
+   "eta": "1/1000",
+   "relative_residual": "5801092813999/488281250000000",
+   "relative_float": 0.011880638083069953,
+   "small_eta_approx_2m_eta": 0.012
+  },
+  {
+   "m": 6,
+   "eta": "1/100",
+   "relative_residual": "53037649/488281250",
+   "relative_float": 0.108621105152,
+   "small_eta_approx_2m_eta": 0.12
+  },
+  {
+   "m": 6,
+   "eta": "1/20",
+   "relative_residual": "11529/31250",
+   "relative_float": 0.368928,
+   "small_eta_approx_2m_eta": 0.6
+  },
+  {
+   "m": 8,
+   "eta": "1/1000",
+   "relative_residual": "481499727435751999/30517578125000000000",
+   "relative_float": 0.01577778306861472,
+   "small_eta_approx_2m_eta": 0.016
+  },
+  {
+   "m": 8,
+   "eta": "1/100",
+   "relative_residual": "42512576449/305175781250",
+   "relative_float": 0.1393052105080832,
+   "small_eta_approx_2m_eta": 0.16
+  },
+  {
+   "m": 8,
+   "eta": "1/20",
+   "relative_residual": "325089/781250",
+   "relative_float": 0.41611392,
+   "small_eta_approx_2m_eta": 0.8
+  }
+ ],
+ "loss_shock_random_cases": 400,
+ "z3_version": "5.1.0"
+}
+2 1 1/100 upper unsat 0.12 None
+2 1 1/100 attain sat 0.01 49/2500
+2 1 1/100 upper_proper unsat 0.01 None
+2 1 1/100 attain_proper sat 0.0 1/2
+2 1 1/100 upper_proper unsat 0.03 None
+2 1 1/100 attain_proper sat 0.01 1/2
+2 1/4 1/100 upper unsat 0.09 None
+2 1/4 1/100 attain sat 0.01 98/3125
+2 1/4 1/100 upper_proper unsat 0.01 None
+2 1/4 1/100 attain_proper sat 0.01 4/5
+2 1/4 1/100 upper_proper unsat 0.03 None
+2 1/4 1/100 attain_proper sat 0.01 4/5
+2 1 1/20 upper unsat 0.08 None
+2 1 1/20 attain sat 0.01 9/100
+2 1 1/20 upper_proper unsat 0.01 None
+2 1 1/20 attain_proper sat 0.0 1/2
+2 1 1/20 upper_proper unsat 0.03 None
+2 1 1/20 attain_proper sat 0.01 1/2
+
+real	2m46.687s
+user	2m43.594s
+sys	0m0.183s

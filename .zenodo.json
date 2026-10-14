@@ -1,0 +1,13 @@
+{
+  "title": "Complementary disclosures in financial networks: accounting geometry, prior-weighted uncertainty and bounded-error reports",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Unrefereed mathematical research candidate. Explicit fixed-total financial-network constructions separate accounting geometry, report-menu restrictions and multiplicative clearing as sources of complementary disclosures. The paper corrects the prior-weighted submodularity criterion at zero factors, derives affine-simplex residual-width and identification formulas using standard linear-programming duality, and treats heterogeneous bounded reporting errors over their full nonnegative range. Exact finite checks and retained rational solver witnesses supplement written proofs; unresolved solver outcomes are preserved. All networks are synthetic. Prior-weighted full-fibre uncertainty is not posterior-support width or welfare value. The results do not establish a general scalable algorithm for nonlinear clearing, empirical policy benefit, formal verification, independent reproduction or external peer-review acceptance. Original prose and data are CC0-1.0; original code is MIT.",
+  "creators": [{"name": "Anonymous"}],
+  "version": "2.0.0-candidate",
+  "publication_date": "2026-10-14",
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": ["financial networks", "information complementarity", "partial identification", "proportional clearing", "linear programming", "disclosure"],
+  "related_identifiers": [{"identifier": "https://github.com/ipitchford/complementary-disclosures", "relation": "isSupplementTo", "scheme": "url"}]
+}

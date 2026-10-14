@@ -1,0 +1,674 @@
+{
+ "schema": 2,
+ "provenance": "fresh_repaired_witness_retaining_run",
+ "started_utc": "2026-10-14T09:50:38.298815+00:00",
+ "planned_instances": 44,
+ "workers": 2,
+ "z3_version": "5.1.0",
+ "records": [
+  {
+   "name": "dag_n5_e12_s5001",
+   "status": "ok",
+   "initial_width": [
+    "3967/8320",
+    "17101/33280"
+   ],
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 38.64666537498124,
+   "index": 1,
+   "file": "instance-001.json"
+  },
+  {
+   "name": "dag_n5_e12_s5000",
+   "status": "ok",
+   "initial_width": [
+    "3191/4992",
+    "6725/9984"
+   ],
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 53,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 99.21145254198927,
+   "index": 0,
+   "file": "instance-000.json"
+  },
+  {
+   "name": "dag_n5_e12_s5003",
+   "status": "ok",
+   "initial_width": [
+    "95/132",
+    "4153/5280"
+   ],
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 2.800861540948972,
+   "index": 3,
+   "file": "instance-003.json"
+  },
+  {
+   "name": "dag_n5_e12_s5004",
+   "status": "ok",
+   "initial_width": [
+    "12/49",
+    "1789/6272"
+   ],
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 55,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 1.3330207919934765,
+   "index": 4,
+   "file": "instance-004.json"
+  },
+  {
+   "name": "dag_n5_e12_s5005",
+   "status": "ok",
+   "initial_width": [
+    "9/16",
+    "301/512"
+   ],
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 55,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 1.2405836670659482,
+   "index": 5,
+   "file": "instance-005.json"
+  },
+  {
+   "name": "dag_n5_e12_s5002",
+   "status": "ok",
+   "initial_width": [
+    "87/140",
+    "1499/2240"
+   ],
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 56,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 144.2176629579626,
+   "index": 2,
+   "file": "instance-002.json"
+  },
+  {
+   "name": "dag_n5_e12_s5007",
+   "status": "ok",
+   "initial_width": [
+    "12003/17920",
+    "789/1120"
+   ],
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 56,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 1.4160645839292556,
+   "index": 7,
+   "file": "instance-007.json"
+  },
+  {
+   "name": "dag_n6_e14_s6000",
+   "status": "ok",
+   "initial_width": [
+    "23/96",
+    "1/4"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 52,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 0.8426352499518543,
+   "index": 8,
+   "file": "instance-008.json"
+  },
+  {
+   "name": "dag_n6_e14_s6001",
+   "status": "ok",
+   "initial_width": [
+    "31/256",
+    "33/256"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 56,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 5.568144333083183,
+   "index": 9,
+   "file": "instance-009.json"
+  },
+  {
+   "name": "dag_n5_e12_s5006",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 10,
+   "requested_edges": 12,
+   "oracle_calls": 23,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 95.90871483297087,
+   "index": 6,
+   "file": "instance-006.json"
+  },
+  {
+   "name": "dag_n6_e14_s6003",
+   "status": "ok",
+   "initial_width": [
+    "81/352",
+    "21/88"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 1.0216617920668796,
+   "index": 11,
+   "file": "instance-011.json"
+  },
+  {
+   "name": "dag_n6_e14_s6004",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 13,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 129.82783099997323,
+   "index": 12,
+   "file": "instance-012.json"
+  },
+  {
+   "name": "dag_n6_e14_s6005",
+   "status": "ok",
+   "initial_width": [
+    "5/36",
+    "11/72"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 53,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 1.5465508749475703,
+   "index": 13,
+   "file": "instance-013.json"
+  },
+  {
+   "name": "dag_n6_e14_s6006",
+   "status": "ok",
+   "initial_width": [
+    "3581/7680",
+    "33/64"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 53,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 273.70997658302076,
+   "index": 14,
+   "file": "instance-014.json"
+  },
+  {
+   "name": "dag_n6_e14_s6002",
+   "status": "ok",
+   "initial_width": [
+    "57/64",
+    "831/896"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 57,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 635.0268849999411,
+   "index": 10,
+   "file": "instance-010.json"
+  },
+  {
+   "name": "dag_n6_e14_s6007",
+   "status": "ok",
+   "initial_width": [
+    "305/256",
+    "20483/16384"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 56,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 261.2274744999595,
+   "index": 15,
+   "file": "instance-015.json"
+  },
+  {
+   "name": "dag_n8_e18_s8001",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 2,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 54.87759929196909,
+   "index": 17,
+   "file": "instance-017.json"
+  },
+  {
+   "name": "dag_n8_e18_s8000",
+   "status": "ok",
+   "initial_width": [
+    "883339/1281280",
+    "3002369/4100096"
+   ],
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 286.3679799999809,
+   "index": 16,
+   "file": "instance-016.json"
+  },
+  {
+   "name": "dag_n8_e18_s8003",
+   "status": "ok",
+   "initial_width": [
+    "315/1024",
+    "1329/4096"
+   ],
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 53,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 2.000843958929181,
+   "index": 19,
+   "file": "instance-019.json"
+  },
+  {
+   "name": "dag_n8_e18_s8004",
+   "status": "ok",
+   "initial_width": [
+    "0",
+    "1/128"
+   ],
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 52,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 0.8921867919852957,
+   "index": 20,
+   "file": "instance-020.json"
+  },
+  {
+   "name": "dag_n8_e18_s8002",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 16,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 215.53430166700855,
+   "index": 18,
+   "file": "instance-018.json"
+  },
+  {
+   "name": "dag_n8_e18_s8005",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 1,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 40.593742458033375,
+   "index": 21,
+   "file": "instance-021.json"
+  },
+  {
+   "name": "dag_n8_e18_s8006",
+   "status": "ok",
+   "initial_width": [
+    "18/55",
+    "2511/7040"
+   ],
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 42.18363729096018,
+   "index": 22,
+   "file": "instance-022.json"
+  },
+  {
+   "name": "dag_n10_e22_s10000",
+   "status": "ok",
+   "initial_width": [
+    "3445/3072",
+    "19/16"
+   ],
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 11.008138624951243,
+   "index": 24,
+   "file": "instance-024.json"
+  },
+  {
+   "name": "dag_n8_e18_s8007",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 18,
+   "requested_edges": 18,
+   "oracle_calls": 14,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 195.69331379199866,
+   "index": 23,
+   "file": "instance-023.json"
+  },
+  {
+   "name": "dag_n10_e22_s10001",
+   "status": "ok",
+   "initial_width": [
+    "997/704",
+    "8403/5632"
+   ],
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 465.5630160829751,
+   "index": 25,
+   "file": "instance-025.json"
+  },
+  {
+   "name": "dag_n10_e22_s10003",
+   "status": "zero_shock",
+   "initial_width": null,
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 0,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 0.0004935829201713204,
+   "index": 27,
+   "file": "instance-027.json"
+  },
+  {
+   "name": "dag_n10_e22_s10004",
+   "status": "ok",
+   "initial_width": [
+    "31/128",
+    "33/128"
+   ],
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 53,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 2.377075041993521,
+   "index": 28,
+   "file": "instance-028.json"
+  },
+  {
+   "name": "dag_n10_e22_s10005",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 1,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 40.48822529206518,
+   "index": 29,
+   "file": "instance-029.json"
+  },
+  {
+   "name": "dag_n10_e22_s10006",
+   "status": "ok",
+   "initial_width": [
+    "35/192",
+    "7/32"
+   ],
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 53,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 11.355045374948531,
+   "index": 30,
+   "file": "instance-030.json"
+  },
+  {
+   "name": "dag_n10_e22_s10002",
+   "status": "ok",
+   "initial_width": [
+    "523/952",
+    "4503/7616"
+   ],
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 51,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 425.8630477919942,
+   "index": 26,
+   "file": "instance-026.json"
+  },
+  {
+   "name": "dag_n6_e15_s6000",
+   "status": "ok",
+   "initial_width": [
+    "31/192",
+    "11/64"
+   ],
+   "edges": 15,
+   "requested_edges": 15,
+   "oracle_calls": 104,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 4.731206416036002,
+   "index": 32,
+   "file": "instance-032.json"
+  },
+  {
+   "name": "dag_n6_e15_s6001",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 15,
+   "requested_edges": 15,
+   "oracle_calls": 7,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 110.66832379205152,
+   "index": 33,
+   "file": "instance-033.json"
+  },
+  {
+   "name": "dag_n10_e22_s10007",
+   "status": "ok",
+   "initial_width": [
+    "27/32",
+    "7/8"
+   ],
+   "edges": 22,
+   "requested_edges": 22,
+   "oracle_calls": 56,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 667.4492550829891,
+   "index": 31,
+   "file": "instance-031.json"
+  },
+  {
+   "name": "dag_n6_e15_s6003",
+   "status": "ok",
+   "initial_width": [
+    "7/64",
+    "21/176"
+   ],
+   "edges": 15,
+   "requested_edges": 15,
+   "oracle_calls": 107,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 2.746045583044179,
+   "index": 35,
+   "file": "instance-035.json"
+  },
+  {
+   "name": "dag_n6_e15_s6004",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 15,
+   "requested_edges": 15,
+   "oracle_calls": 2,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 54.42739299999084,
+   "index": 36,
+   "file": "instance-036.json"
+  },
+  {
+   "name": "dag_n6_e15_s6005",
+   "status": "ok",
+   "initial_width": [
+    "1/48",
+    "5/128"
+   ],
+   "edges": 15,
+   "requested_edges": 15,
+   "oracle_calls": 106,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 5.077400290989317,
+   "index": 37,
+   "file": "instance-037.json"
+  },
+  {
+   "name": "rand_n4_e10_s4000",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 10,
+   "requested_edges": 10,
+   "oracle_calls": 1,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 40.281491083907895,
+   "index": 38,
+   "file": "instance-038.json"
+  },
+  {
+   "name": "rand_n4_e10_s4001",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 10,
+   "requested_edges": 10,
+   "oracle_calls": 1,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 40.29277216701303,
+   "index": 39,
+   "file": "instance-039.json"
+  },
+  {
+   "name": "rand_n5_e12_s5000",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 12,
+   "requested_edges": 12,
+   "oracle_calls": 1,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 40.315559083013795,
+   "index": 40,
+   "file": "instance-040.json"
+  },
+  {
+   "name": "rand_n5_e12_s5001",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 12,
+   "requested_edges": 12,
+   "oracle_calls": 31,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 263.77712666697334,
+   "index": 41,
+   "file": "instance-041.json"
+  },
+  {
+   "name": "rand_n6_e14_s6000",
+   "status": "unresolved",
+   "initial_width": null,
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 1,
+   "unknown_calls": 1,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 40.38749445800204,
+   "index": 42,
+   "file": "instance-042.json"
+  },
+  {
+   "name": "dag_n6_e15_s6002",
+   "status": "ok",
+   "initial_width": [
+    "1329/1408",
+    "2807/2816"
+   ],
+   "edges": 15,
+   "requested_edges": 15,
+   "oracle_calls": 95,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 1025.3057304579997,
+   "index": 34,
+   "file": "instance-034.json"
+  },
+  {
+   "name": "rand_n6_e14_s6001",
+   "status": "ok",
+   "initial_width": [
+    "21/121",
+    "1519/7744"
+   ],
+   "edges": 14,
+   "requested_edges": 14,
+   "oracle_calls": 54,
+   "unknown_calls": 0,
+   "solver_only_sat_calls": 0,
+   "wall_seconds": 140.73288704198785,
+   "index": 43,
+   "file": "instance-043.json"
+  }
+ ],
+ "code_sha256": {
+  "netinfo.py": "a873ac23370d67abcdc84f9efd20a8f7a43a618db6115c30690f5418f43fbfb7",
+  "study_random.py": "ef31835dfacc973fcf4e6c152530303941bd3a4055b73d537999e1f1dcfa527b"
+ },
+ "finished_utc": "2026-10-14T10:40:45.201223+00:00"
+}

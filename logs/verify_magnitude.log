@@ -1,0 +1,13 @@
+{
+ "exact_cases": 1740,
+ "endpoint_width_checks": 1260,
+ "exact_seconds": 15.616642236709595,
+ "z3_version": "5.1.0",
+ "solver_unsat": 36,
+ "solver_sat": 30
+}
+max solver seconds 18.276035215000093
+
+real	1m15.512s
+user	1m14.526s
+sys	0m0.068s

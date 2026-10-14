@@ -1,0 +1,449 @@
+{
+  "self_tests": [
+    "all shipped Python checks use explicit exceptions, not removable assert",
+    "rational SAT persists complete replayable matrices",
+    "actual square-root algebraic SAT remains solver-only",
+    "algebraic SAT cannot advance bisection lower bound",
+    "unknown feasibility stays unknown",
+    "inconsistent feasibility distinguished from unknown and menu infeasibility",
+    "selection refuses solver-only feasibility",
+    "forbidden-edge matrix corruption",
+    "false retained loss gap",
+    "false retained payments",
+    "corrupt instance metadata",
+    "inconsistent evidence classification",
+    "float witness coordinate",
+    "invalid noise input",
+    "requested twelve versus actual ten DAG edges retained",
+    "selection feasibility and every subsequent query retained"
+  ],
+  "retained_records": [
+    {
+      "file": "instance-000.json",
+      "queries": 53,
+      "rational_witnesses_rechecked": 23,
+      "unsat_solver_evidence": 30,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "87e1bad739edec0d9cbd09358d6206c8f6aa1b9d3617ba59f74cd03a987c4f51"
+    },
+    {
+      "file": "instance-001.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 21,
+      "unsat_solver_evidence": 33,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "5a1d86a6dfeb311a0a4e96888e212b775d06bd12d518fedf9fc4a89b4362029d"
+    },
+    {
+      "file": "instance-002.json",
+      "queries": 56,
+      "rational_witnesses_rechecked": 23,
+      "unsat_solver_evidence": 33,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "25680c8fb6bd9df4ac7b9adda4df423c64e12a542d1cedcb8d14807ea58a114e"
+    },
+    {
+      "file": "instance-003.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 15,
+      "unsat_solver_evidence": 39,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "164fd6530b9a9feebc13084c66abae6b5171ccaeb53ac3704916711933f6fe10"
+    },
+    {
+      "file": "instance-004.json",
+      "queries": 55,
+      "rational_witnesses_rechecked": 14,
+      "unsat_solver_evidence": 41,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "dc55245fb59fba09a0543f962f6242c100acf526aed0ccb34924dbda7df2b2ab"
+    },
+    {
+      "file": "instance-005.json",
+      "queries": 55,
+      "rational_witnesses_rechecked": 22,
+      "unsat_solver_evidence": 33,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "b5bd89f344f851b9a1d32b252da1a09ea7e1da71b3d5a60a7f4b8babdf2786b1"
+    },
+    {
+      "file": "instance-006.json",
+      "queries": 23,
+      "rational_witnesses_rechecked": 7,
+      "unsat_solver_evidence": 15,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "6ce69538754ea9ea1acbca35ea77a6b431e5f42a3b4c5b4d1eaf27bf8b0e6b4b"
+    },
+    {
+      "file": "instance-007.json",
+      "queries": 56,
+      "rational_witnesses_rechecked": 21,
+      "unsat_solver_evidence": 35,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "db01be32473a01d7f84c949e6508fed9103954b2cc70f5c1f31acc582e9ec6b1"
+    },
+    {
+      "file": "instance-008.json",
+      "queries": 52,
+      "rational_witnesses_rechecked": 12,
+      "unsat_solver_evidence": 40,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "9e0aa15f5597577e955632fcf1f6ae9abda661c6ab2d318956d0b98e2a05384e"
+    },
+    {
+      "file": "instance-009.json",
+      "queries": 56,
+      "rational_witnesses_rechecked": 23,
+      "unsat_solver_evidence": 33,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "eb9292418bbd8c0ecefb97b63bdbe0554bd1fa7370be5008a33882913ed3a7a8"
+    },
+    {
+      "file": "instance-010.json",
+      "queries": 57,
+      "rational_witnesses_rechecked": 28,
+      "unsat_solver_evidence": 29,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "05483124e81d8d4c45aae54a7bb4277fd452dcc1e545bad95a343850a053ef74"
+    },
+    {
+      "file": "instance-011.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 28,
+      "unsat_solver_evidence": 26,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "14e8094839877a57ae0843d731fe848c246e887b80a384e8a00e9f278fff9c25"
+    },
+    {
+      "file": "instance-012.json",
+      "queries": 13,
+      "rational_witnesses_rechecked": 8,
+      "unsat_solver_evidence": 4,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "8e98b35a9804b3477c4b357faa3350f3d813308f28d711d913e50a94e4ac72be"
+    },
+    {
+      "file": "instance-013.json",
+      "queries": 53,
+      "rational_witnesses_rechecked": 15,
+      "unsat_solver_evidence": 38,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "d32bb5ed87b865b67b9cec931abad947acf263d6073cb49c98e5a460e4ca16a9"
+    },
+    {
+      "file": "instance-014.json",
+      "queries": 53,
+      "rational_witnesses_rechecked": 19,
+      "unsat_solver_evidence": 34,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "bb25de80506e4503f63efa3309e7d6266d0273ae55f53fe6c5e8f8719a37f543"
+    },
+    {
+      "file": "instance-015.json",
+      "queries": 56,
+      "rational_witnesses_rechecked": 27,
+      "unsat_solver_evidence": 29,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "ce6bfe0f8bf2251efbd8256085b5596deea40be5c234663da0a9662d7f53c5b3"
+    },
+    {
+      "file": "instance-016.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 12,
+      "unsat_solver_evidence": 42,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "a8455fbeeaf00987e1adec367de3b2f8eb13a5509edb4297c824c58f79f334e8"
+    },
+    {
+      "file": "instance-017.json",
+      "queries": 2,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 1,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "debd2ecfa173ec0b9f2d794bf0f34c88217af77694dbbb3663d5c4f35ee1ffdb"
+    },
+    {
+      "file": "instance-018.json",
+      "queries": 16,
+      "rational_witnesses_rechecked": 3,
+      "unsat_solver_evidence": 12,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "95a1245d4527b295b3805be743b67c8415c4a71167abaf98e42fb2ba55bf1be5"
+    },
+    {
+      "file": "instance-019.json",
+      "queries": 53,
+      "rational_witnesses_rechecked": 20,
+      "unsat_solver_evidence": 33,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "d96333eea8e5055cc5f30ad2531577336344584ddadf10bbfe27531bd57948b2"
+    },
+    {
+      "file": "instance-020.json",
+      "queries": 52,
+      "rational_witnesses_rechecked": 2,
+      "unsat_solver_evidence": 50,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "deb572443f898b7859e925ac1f1e52859ac67e41ae0e624cdc0008527fe21dc1"
+    },
+    {
+      "file": "instance-021.json",
+      "queries": 1,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 0,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "a4482024ce7a73cf45f129a1b449629bda805b1a3435372e533a0586b75785d2"
+    },
+    {
+      "file": "instance-022.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 19,
+      "unsat_solver_evidence": 35,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "23a6a7e3f2b88aa88361dda140011536f14052752115593bc6be07fbea33cd87"
+    },
+    {
+      "file": "instance-023.json",
+      "queries": 14,
+      "rational_witnesses_rechecked": 4,
+      "unsat_solver_evidence": 9,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "e4dc5c717cb1a1c65e40061700477388897931a938177fc29532965b92b1d0cc"
+    },
+    {
+      "file": "instance-024.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 26,
+      "unsat_solver_evidence": 28,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "d0a68645fee237bb230dfea825a9a59fc44bcee27aff03cfd603eaf390ed95ec"
+    },
+    {
+      "file": "instance-025.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 20,
+      "unsat_solver_evidence": 34,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "71e1bd552f62d80b567a3726ddef2c1bcda3f5aa860c0bdacac32a3738117ccd"
+    },
+    {
+      "file": "instance-026.json",
+      "queries": 51,
+      "rational_witnesses_rechecked": 20,
+      "unsat_solver_evidence": 31,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "207286f7f6db329380c3d8684cba078a37885fc41fb325e9a171b87858a08fe1"
+    },
+    {
+      "file": "instance-027.json",
+      "queries": 0,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 0,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "80313bbca2abebb618362e2e6904c376410a264ccee49094ad4204d8d5a7b75d"
+    },
+    {
+      "file": "instance-028.json",
+      "queries": 53,
+      "rational_witnesses_rechecked": 20,
+      "unsat_solver_evidence": 33,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "014e25dcc4286ab62d0765ec0e58a33661ca89b6e0f690ee0ef794e2f95600a5"
+    },
+    {
+      "file": "instance-029.json",
+      "queries": 1,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 0,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "19e9dade9ea668dc8d6eca793fbb79d489679cb8de764c410a2f913cb672f381"
+    },
+    {
+      "file": "instance-030.json",
+      "queries": 53,
+      "rational_witnesses_rechecked": 19,
+      "unsat_solver_evidence": 34,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "e3f4e2f3ca4a91f8924b21559bb676f099938396f4cdf64a55494d27e8f9e4e7"
+    },
+    {
+      "file": "instance-031.json",
+      "queries": 56,
+      "rational_witnesses_rechecked": 27,
+      "unsat_solver_evidence": 29,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "e485e947eb09d7ed1a56f677ea2bdadd967eddf3bf45bde004f8fe1fc67cb5e4"
+    },
+    {
+      "file": "instance-032.json",
+      "queries": 104,
+      "rational_witnesses_rechecked": 38,
+      "unsat_solver_evidence": 66,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "fdc09fa8624e07eb35eac104439b3bf0e3f8fa04fb005088f79a7dde4e326132"
+    },
+    {
+      "file": "instance-033.json",
+      "queries": 7,
+      "rational_witnesses_rechecked": 2,
+      "unsat_solver_evidence": 4,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "632850cdf829a0d28d0b1066ca8d762a79188c3a0e6e32d9a8e599fafc9acf73"
+    },
+    {
+      "file": "instance-034.json",
+      "queries": 95,
+      "rational_witnesses_rechecked": 29,
+      "unsat_solver_evidence": 66,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "9e8153c31fecc1292830a0cf96b31ac764adcf88a6a88804d65b295f42aa472a"
+    },
+    {
+      "file": "instance-035.json",
+      "queries": 107,
+      "rational_witnesses_rechecked": 42,
+      "unsat_solver_evidence": 65,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "054f4d2b851070956e06c69074361dca0aecd55f0caa1a9e0cecc3dd5bcf15da"
+    },
+    {
+      "file": "instance-036.json",
+      "queries": 2,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 1,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "de155ff1caf95f7ba71dece8b56ed9a32fcbfdbe8648718983e1ae511fb370e3"
+    },
+    {
+      "file": "instance-037.json",
+      "queries": 106,
+      "rational_witnesses_rechecked": 25,
+      "unsat_solver_evidence": 81,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "f32b76cbd3514c5600a845008a5f365ab106c5aeedaf5e10b5f5af1c3a5df0c2"
+    },
+    {
+      "file": "instance-038.json",
+      "queries": 1,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 0,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "a1dfc53fa7fe161596ded3424adb20c0a51b8219792d5a7973320544c4573943"
+    },
+    {
+      "file": "instance-039.json",
+      "queries": 1,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 0,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "0783ef5f1d32649ebbcd79e29b4e078bfe6ab3839b7e35109b6eafb9dd81428b"
+    },
+    {
+      "file": "instance-040.json",
+      "queries": 1,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 0,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "25182abc7e697bb69671738ce7b1856fdc3e2e38825ab71f19372cdd7d0dddc5"
+    },
+    {
+      "file": "instance-041.json",
+      "queries": 31,
+      "rational_witnesses_rechecked": 2,
+      "unsat_solver_evidence": 28,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "14af604a39ac3b950e74b49c1cdb1b24e385a19cedcc4ab1503fdc7bf44404b9"
+    },
+    {
+      "file": "instance-042.json",
+      "queries": 1,
+      "rational_witnesses_rechecked": 0,
+      "unsat_solver_evidence": 0,
+      "unknown_retained": 1,
+      "solver_only_sat_retained": 0,
+      "sha256": "af879166f20a0a051a23fd7f035bf4320ccb3f77f80dbb24098e1eed63dc2801"
+    },
+    {
+      "file": "instance-043.json",
+      "queries": 54,
+      "rational_witnesses_rechecked": 21,
+      "unsat_solver_evidence": 33,
+      "unknown_retained": 0,
+      "solver_only_sat_retained": 0,
+      "sha256": "d9c7d24971ed5a16c99630b191a74227ae0b5c5c4ce4442d6f7d872a288139ff"
+    }
+  ],
+  "retained_negative_controls": [
+    "omitted instance record",
+    "summary query-count mismatch",
+    "missing completion marker",
+    "incorrect actual edge count",
+    "omitted query timing",
+    "unsupported lower bracket",
+    "zero width from bracket alone",
+    "mislabelled half-width target",
+    "missing feasibility call",
+    "corrupted nested selection history",
+    "invented complementarity finding",
+    "invented accounting-fixed classification"
+  ],
+  "coverage": [
+    {
+      "planned": 44,
+      "retained": 44,
+      "complete": true,
+      "completion_marker": true
+    }
+  ],
+  "optimized": 0,
+  "status": "PASS",
+  "python_version": "3.13.5",
+  "z3_library_version": "4.15.4",
+  "code_sha256": {
+    "verify_assurance.py": "362dc6c47f245fbb4bc1e6094e260aa1ce3cf98b39f0cbb08c353dedf0bbe654",
+    "netinfo.py": "a873ac23370d67abcdc84f9efd20a8f7a43a618db6115c30690f5418f43fbfb7",
+    "study_random.py": "ef31835dfacc973fcf4e6c152530303941bd3a4055b73d537999e1f1dcfa527b"
+  }
+}

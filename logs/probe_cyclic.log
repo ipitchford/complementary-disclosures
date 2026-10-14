@@ -1,0 +1,14 @@
+cyclic 4 9 shock 5/2 default unsat 32.04
+cyclic 4 9 shock 5/2 qfnra-nlsat unknown 60.0
+cyclic 4 10 shock 5/2 default unsat 50.05
+cyclic 4 10 shock 5/2 qfnra-nlsat unknown 60.0
+cyclic 5 11 shock 2 default unsat 14.2
+cyclic 5 11 shock 2 qfnra-nlsat unknown 60.01
+cyclic 5 12 shock 5/4 default unknown 60.12
+cyclic 5 12 shock 5/4 qfnra-nlsat unknown 60.06
+cyclic 6 13 shock 2 default unknown 60.12
+cyclic 6 13 shock 2 qfnra-nlsat unknown 60.01
+feed-forward 5 10 shock 3 default unsat 0.85
+feed-forward 6 13 shock 19/4 default unsat 0.15
+feed-forward 8 17 shock 7/4 default unsat 0.05
+feed-forward 10 22 shock 3/2 default unsat 0.01

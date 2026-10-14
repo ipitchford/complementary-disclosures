@@ -1,0 +1,78 @@
+{
+ "delta1": "7/20",
+ "delta2": "1/10",
+ "budget": 2,
+ "table": [
+  {
+   "S": [
+    "core:x1",
+    "core:x2"
+   ],
+   "minimax": "9/20",
+   "expected_uniform": "9/20"
+  },
+  {
+   "S": [
+    "core:x1",
+    "z1:x1"
+   ],
+   "minimax": "3/5",
+   "expected_uniform": "7/20"
+  },
+  {
+   "S": [
+    "core:x1",
+    "z2:x1"
+   ],
+   "minimax": "17/20",
+   "expected_uniform": "3/5"
+  },
+  {
+   "S": [
+    "core:x2",
+    "z1:x1"
+   ],
+   "minimax": "3/5",
+   "expected_uniform": "7/20"
+  },
+  {
+   "S": [
+    "core:x2",
+    "z2:x1"
+   ],
+   "minimax": "17/20",
+   "expected_uniform": "3/5"
+  },
+  {
+   "S": [
+    "z1:x1",
+    "z2:x1"
+   ],
+   "minimax": "1/2",
+   "expected_uniform": "1/2"
+  }
+ ],
+ "minimax_optimal": [
+  "core:x1",
+  "core:x2"
+ ],
+ "minimax_optimal_width": "9/20",
+ "expected_optimal": [
+  "core:x1",
+  "z1:x1"
+ ],
+ "expected_optimal_width": "7/20",
+ "expected_width_of_minimax_choice": "9/20",
+ "minimax_width_of_expected_choice": "3/5",
+ "z3_version": "5.1.0"
+}
+['core:x1', 'core:x2'] upper unsat 0.02 None
+['core:x1', 'core:x2'] attain sat 0.01 9/20
+['core:x1', 'z1:x1'] upper unsat 0.03 None
+['core:x1', 'z1:x1'] attain sat 0.01 3/5
+['z1:x1', 'z2:x1'] upper unsat 0.28 None
+['z1:x1', 'z2:x1'] attain sat 0.01 1/2
+
+real	0m0.618s
+user	0m0.570s
+sys	0m0.020s

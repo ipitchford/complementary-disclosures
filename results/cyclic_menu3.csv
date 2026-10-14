@@ -1,0 +1,7 @@
+name,n,edges,menu,status,shock,initial_width_lo,initial_width_hi,full_menu_width_hi,zero_value_singletons,complementarity,violations,oracle_calls,oracle_seconds,max_call_seconds,unknown_calls,selection_status,selected,wall_seconds
+rand_n4_e10_s4000,4,10,3,unknown,5/2,,,,0,,0,1,40.093,40.093,1,,,40.14
+rand_n4_e10_s4001,4,10,3,unknown,7/4,,,,0,,0,1,40.097,40.097,1,,,40.13
+rand_n5_e12_s5000,5,12,3,unknown,5/4,,,,0,,0,1,40.105,40.105,1,,,40.13
+rand_n5_e12_s5001,5,12,3,unknown,1,,,,0,,0,31,263.313,40.096,1,,,263.64
+rand_n6_e14_s6000,6,14,3,unknown,3/2,,,,0,,0,1,40.108,40.108,1,,,40.14
+rand_n6_e14_s6001,6,14,3,ok,7/4,21/121,1519/7744,5957/30976,1,False,0,51,136.415,14.391,0,infeasible,,137.21

@@ -1,0 +1,395 @@
+{
+  "status": "PASS",
+  "scope": "Completed finite replay; not a prevalence estimate or universal proof",
+  "coverage": {
+    "planned": 44,
+    "retained": 44,
+    "complete": true,
+    "completion_marker": true
+  },
+  "groups": {
+    "dag_menu3_a": {
+      "instances": 16,
+      "width_stage_statuses": {
+        "ok": 14,
+        "unresolved": 2
+      },
+      "positive_width_certified": 14,
+      "zero_width_by_positive_gap_unsat": 0,
+      "zero_shock_instances": 0,
+      "complementarity_certified": 4,
+      "full_menu_informative_certified": 9,
+      "instances_with_negligible_singletons": 12,
+      "negligible_singleton_reports": 22,
+      "selection_attempts": 14,
+      "selection_statuses": {
+        "optimal": 5,
+        "infeasible": 9
+      },
+      "screened_instances": 14,
+      "screened_reports": 42,
+      "accounting_screen": {
+        "variable_with_verified_witness": 36,
+        "fixed_by_accounting_constraints": 6
+      },
+      "negligibility_by_accounting_status": {
+        "certified_negligible": {
+          "fixed_by_accounting_constraints": 6,
+          "variable_with_verified_witness": 16
+        },
+        "not_certified_negligible": {
+          "variable_with_verified_witness": 20
+        }
+      },
+      "requested_edge_counts": [
+        12,
+        14
+      ],
+      "actual_edge_counts": [
+        10,
+        14
+      ],
+      "edge_count_corrections": 8,
+      "queries": 800,
+      "solver_statuses": {
+        "unsat": 492,
+        "sat": 306,
+        "unknown": 2
+      },
+      "evidence_classes": {
+        "solver_unsat": 492,
+        "rational_witness_verified": 306,
+        "unresolved": 2
+      },
+      "query_stages": {
+        "width": 702,
+        "selection": 56,
+        "accounting_redundancy": 42
+      },
+      "solver_seconds_sum": 1685.7145596637856,
+      "max_solver_call_seconds": 40.326411582995206,
+      "max_query_wall_seconds": 40.33528712496627,
+      "sum_instance_wall_seconds": 1693.5461856247857
+    },
+    "dag_menu3_b": {
+      "instances": 16,
+      "width_stage_statuses": {
+        "ok": 10,
+        "unresolved": 5,
+        "zero_shock": 1
+      },
+      "positive_width_certified": 9,
+      "zero_width_by_positive_gap_unsat": 1,
+      "zero_shock_instances": 1,
+      "complementarity_certified": 0,
+      "full_menu_informative_certified": 2,
+      "instances_with_negligible_singletons": 10,
+      "negligible_singleton_reports": 26,
+      "selection_attempts": 9,
+      "selection_statuses": {
+        "infeasible": 7,
+        "optimal": 2
+      },
+      "screened_instances": 10,
+      "screened_reports": 30,
+      "accounting_screen": {
+        "variable_with_verified_witness": 18,
+        "fixed_by_accounting_constraints": 12
+      },
+      "negligibility_by_accounting_status": {
+        "certified_negligible": {
+          "variable_with_verified_witness": 14,
+          "fixed_by_accounting_constraints": 12
+        },
+        "not_certified_negligible": {
+          "variable_with_verified_witness": 4
+        }
+      },
+      "requested_edge_counts": [
+        18,
+        22
+      ],
+      "actual_edge_counts": [
+        18,
+        22
+      ],
+      "edge_count_corrections": 0,
+      "queries": 568,
+      "solver_statuses": {
+        "unsat": 371,
+        "sat": 192,
+        "unknown": 5
+      },
+      "evidence_classes": {
+        "solver_unsat": 371,
+        "rational_witness_verified": 192,
+        "unresolved": 5
+      },
+      "query_stages": {
+        "width": 512,
+        "selection": 25,
+        "accounting_redundancy": 30,
+        "zero_width": 1
+      },
+      "solver_seconds_sum": 2453.2378770769574,
+      "max_solver_call_seconds": 40.67440037499182,
+      "max_query_wall_seconds": 40.68644270894583,
+      "sum_instance_wall_seconds": 2462.2479021257022
+    },
+    "dag_menu4": {
+      "instances": 6,
+      "width_stage_statuses": {
+        "ok": 4,
+        "unresolved": 2
+      },
+      "positive_width_certified": 4,
+      "zero_width_by_positive_gap_unsat": 0,
+      "zero_shock_instances": 0,
+      "complementarity_certified": 0,
+      "full_menu_informative_certified": 1,
+      "instances_with_negligible_singletons": 4,
+      "negligible_singleton_reports": 14,
+      "selection_attempts": 4,
+      "selection_statuses": {
+        "infeasible": 4
+      },
+      "screened_instances": 4,
+      "screened_reports": 16,
+      "accounting_screen": {
+        "fixed_by_accounting_constraints": 5,
+        "variable_with_verified_witness": 11
+      },
+      "negligibility_by_accounting_status": {
+        "certified_negligible": {
+          "fixed_by_accounting_constraints": 5,
+          "variable_with_verified_witness": 9
+        },
+        "not_certified_negligible": {
+          "variable_with_verified_witness": 2
+        }
+      },
+      "requested_edge_counts": [
+        15
+      ],
+      "actual_edge_counts": [
+        15
+      ],
+      "edge_count_corrections": 0,
+      "queries": 421,
+      "solver_statuses": {
+        "unsat": 283,
+        "sat": 136,
+        "unknown": 2
+      },
+      "evidence_classes": {
+        "solver_unsat": 283,
+        "rational_witness_verified": 136,
+        "unresolved": 2
+      },
+      "query_stages": {
+        "width": 385,
+        "selection": 20,
+        "accounting_redundancy": 16
+      },
+      "solver_seconds_sum": 1198.5130312702386,
+      "max_solver_call_seconds": 40.360895625082776,
+      "max_query_wall_seconds": 40.37007708393503,
+      "sum_instance_wall_seconds": 1202.9560995401116
+    },
+    "cyclic_menu3": {
+      "instances": 6,
+      "width_stage_statuses": {
+        "unresolved": 5,
+        "ok": 1
+      },
+      "positive_width_certified": 1,
+      "zero_width_by_positive_gap_unsat": 0,
+      "zero_shock_instances": 0,
+      "complementarity_certified": 0,
+      "full_menu_informative_certified": 0,
+      "instances_with_negligible_singletons": 1,
+      "negligible_singleton_reports": 3,
+      "selection_attempts": 1,
+      "selection_statuses": {
+        "infeasible": 1
+      },
+      "screened_instances": 1,
+      "screened_reports": 3,
+      "accounting_screen": {
+        "fixed_by_accounting_constraints": 1,
+        "variable_with_verified_witness": 2
+      },
+      "negligibility_by_accounting_status": {
+        "certified_negligible": {
+          "fixed_by_accounting_constraints": 1,
+          "variable_with_verified_witness": 2
+        },
+        "not_certified_negligible": {}
+      },
+      "requested_edge_counts": [
+        10,
+        12,
+        14
+      ],
+      "actual_edge_counts": [
+        10,
+        12,
+        14
+      ],
+      "edge_count_corrections": 0,
+      "queries": 89,
+      "solver_statuses": {
+        "unknown": 5,
+        "unsat": 61,
+        "sat": 23
+      },
+      "evidence_classes": {
+        "unresolved": 5,
+        "solver_unsat": 61,
+        "rational_witness_verified": 23
+      },
+      "query_stages": {
+        "width": 83,
+        "selection": 3,
+        "accounting_redundancy": 3
+      },
+      "solver_seconds_sum": 564.9257860850776,
+      "max_solver_call_seconds": 40.370542749995366,
+      "max_query_wall_seconds": 40.38026358408388,
+      "sum_instance_wall_seconds": 565.787330500898
+    }
+  },
+  "all_instances": {
+    "instances": 44,
+    "width_stage_statuses": {
+      "ok": 29,
+      "unresolved": 14,
+      "zero_shock": 1
+    },
+    "positive_width_certified": 28,
+    "zero_width_by_positive_gap_unsat": 1,
+    "zero_shock_instances": 1,
+    "complementarity_certified": 4,
+    "full_menu_informative_certified": 12,
+    "instances_with_negligible_singletons": 27,
+    "negligible_singleton_reports": 65,
+    "selection_attempts": 28,
+    "selection_statuses": {
+      "optimal": 7,
+      "infeasible": 21
+    },
+    "screened_instances": 29,
+    "screened_reports": 91,
+    "accounting_screen": {
+      "variable_with_verified_witness": 67,
+      "fixed_by_accounting_constraints": 24
+    },
+    "negligibility_by_accounting_status": {
+      "certified_negligible": {
+        "fixed_by_accounting_constraints": 24,
+        "variable_with_verified_witness": 41
+      },
+      "not_certified_negligible": {
+        "variable_with_verified_witness": 26
+      }
+    },
+    "requested_edge_counts": [
+      10,
+      12,
+      14,
+      15,
+      18,
+      22
+    ],
+    "actual_edge_counts": [
+      10,
+      12,
+      14,
+      15,
+      18,
+      22
+    ],
+    "edge_count_corrections": 8,
+    "queries": 1878,
+    "solver_statuses": {
+      "unsat": 1207,
+      "sat": 657,
+      "unknown": 14
+    },
+    "evidence_classes": {
+      "solver_unsat": 1207,
+      "rational_witness_verified": 657,
+      "unresolved": 14
+    },
+    "query_stages": {
+      "width": 1682,
+      "selection": 104,
+      "accounting_redundancy": 91,
+      "zero_width": 1
+    },
+    "solver_seconds_sum": 5902.391254096059,
+    "max_solver_call_seconds": 40.67440037499182,
+    "max_query_wall_seconds": 40.68644270894583,
+    "sum_instance_wall_seconds": 5924.5375177914975
+  },
+  "started_utc": "2026-10-14T09:50:38.298815+00:00",
+  "finished_utc": "2026-10-14T10:40:45.201223+00:00",
+  "elapsed_wall_seconds": 3006.902408,
+  "timing_scope": "solver seconds sum/max includes every retained width, zero test, feasibility, selection and redundancy call; query wall includes extraction/check overhead; elapsed wall is the two-worker makespan, not summed worker time",
+  "denominators": "ok means every width bracket completed, not every later query resolved; selection attempted only after a positive initial lower bracket; redundancy screens only after width completion; variable reports need not affect loss",
+  "summary_sha256": "06ca3fdcfa697082402bc79b0efce5b9a65d85ee3ef452ed5ff937d7cfdab75a",
+  "record_sha256": {
+    "instance-000.json": "87e1bad739edec0d9cbd09358d6206c8f6aa1b9d3617ba59f74cd03a987c4f51",
+    "instance-001.json": "5a1d86a6dfeb311a0a4e96888e212b775d06bd12d518fedf9fc4a89b4362029d",
+    "instance-002.json": "25680c8fb6bd9df4ac7b9adda4df423c64e12a542d1cedcb8d14807ea58a114e",
+    "instance-003.json": "164fd6530b9a9feebc13084c66abae6b5171ccaeb53ac3704916711933f6fe10",
+    "instance-004.json": "dc55245fb59fba09a0543f962f6242c100acf526aed0ccb34924dbda7df2b2ab",
+    "instance-005.json": "b5bd89f344f851b9a1d32b252da1a09ea7e1da71b3d5a60a7f4b8babdf2786b1",
+    "instance-006.json": "6ce69538754ea9ea1acbca35ea77a6b431e5f42a3b4c5b4d1eaf27bf8b0e6b4b",
+    "instance-007.json": "db01be32473a01d7f84c949e6508fed9103954b2cc70f5c1f31acc582e9ec6b1",
+    "instance-008.json": "9e0aa15f5597577e955632fcf1f6ae9abda661c6ab2d318956d0b98e2a05384e",
+    "instance-009.json": "eb9292418bbd8c0ecefb97b63bdbe0554bd1fa7370be5008a33882913ed3a7a8",
+    "instance-010.json": "05483124e81d8d4c45aae54a7bb4277fd452dcc1e545bad95a343850a053ef74",
+    "instance-011.json": "14e8094839877a57ae0843d731fe848c246e887b80a384e8a00e9f278fff9c25",
+    "instance-012.json": "8e98b35a9804b3477c4b357faa3350f3d813308f28d711d913e50a94e4ac72be",
+    "instance-013.json": "d32bb5ed87b865b67b9cec931abad947acf263d6073cb49c98e5a460e4ca16a9",
+    "instance-014.json": "bb25de80506e4503f63efa3309e7d6266d0273ae55f53fe6c5e8f8719a37f543",
+    "instance-015.json": "ce6bfe0f8bf2251efbd8256085b5596deea40be5c234663da0a9662d7f53c5b3",
+    "instance-016.json": "a8455fbeeaf00987e1adec367de3b2f8eb13a5509edb4297c824c58f79f334e8",
+    "instance-017.json": "debd2ecfa173ec0b9f2d794bf0f34c88217af77694dbbb3663d5c4f35ee1ffdb",
+    "instance-018.json": "95a1245d4527b295b3805be743b67c8415c4a71167abaf98e42fb2ba55bf1be5",
+    "instance-019.json": "d96333eea8e5055cc5f30ad2531577336344584ddadf10bbfe27531bd57948b2",
+    "instance-020.json": "deb572443f898b7859e925ac1f1e52859ac67e41ae0e624cdc0008527fe21dc1",
+    "instance-021.json": "a4482024ce7a73cf45f129a1b449629bda805b1a3435372e533a0586b75785d2",
+    "instance-022.json": "23a6a7e3f2b88aa88361dda140011536f14052752115593bc6be07fbea33cd87",
+    "instance-023.json": "e4dc5c717cb1a1c65e40061700477388897931a938177fc29532965b92b1d0cc",
+    "instance-024.json": "d0a68645fee237bb230dfea825a9a59fc44bcee27aff03cfd603eaf390ed95ec",
+    "instance-025.json": "71e1bd552f62d80b567a3726ddef2c1bcda3f5aa860c0bdacac32a3738117ccd",
+    "instance-026.json": "207286f7f6db329380c3d8684cba078a37885fc41fb325e9a171b87858a08fe1",
+    "instance-027.json": "80313bbca2abebb618362e2e6904c376410a264ccee49094ad4204d8d5a7b75d",
+    "instance-028.json": "014e25dcc4286ab62d0765ec0e58a33661ca89b6e0f690ee0ef794e2f95600a5",
+    "instance-029.json": "19e9dade9ea668dc8d6eca793fbb79d489679cb8de764c410a2f913cb672f381",
+    "instance-030.json": "e3f4e2f3ca4a91f8924b21559bb676f099938396f4cdf64a55494d27e8f9e4e7",
+    "instance-031.json": "e485e947eb09d7ed1a56f677ea2bdadd967eddf3bf45bde004f8fe1fc67cb5e4",
+    "instance-032.json": "fdc09fa8624e07eb35eac104439b3bf0e3f8fa04fb005088f79a7dde4e326132",
+    "instance-033.json": "632850cdf829a0d28d0b1066ca8d762a79188c3a0e6e32d9a8e599fafc9acf73",
+    "instance-034.json": "9e8153c31fecc1292830a0cf96b31ac764adcf88a6a88804d65b295f42aa472a",
+    "instance-035.json": "054f4d2b851070956e06c69074361dca0aecd55f0caa1a9e0cecc3dd5bcf15da",
+    "instance-036.json": "de155ff1caf95f7ba71dece8b56ed9a32fcbfdbe8648718983e1ae511fb370e3",
+    "instance-037.json": "f32b76cbd3514c5600a845008a5f365ab106c5aeedaf5e10b5f5af1c3a5df0c2",
+    "instance-038.json": "a1dfc53fa7fe161596ded3424adb20c0a51b8219792d5a7973320544c4573943",
+    "instance-039.json": "0783ef5f1d32649ebbcd79e29b4e078bfe6ab3839b7e35109b6eafb9dd81428b",
+    "instance-040.json": "25182abc7e697bb69671738ce7b1856fdc3e2e38825ab71f19372cdd7d0dddc5",
+    "instance-041.json": "14af604a39ac3b950e74b49c1cdb1b24e385a19cedcc4ab1503fdc7bf44404b9",
+    "instance-042.json": "af879166f20a0a051a23fd7f035bf4320ccb3f77f80dbb24098e1eed63dc2801",
+    "instance-043.json": "d9c7d24971ed5a16c99630b191a74227ae0b5c5c4ce4442d6f7d872a288139ff"
+  },
+  "code_sha256": {
+    "summarize_fresh.py": "4f69db0d6d46da2477748775bca94db81808c1736e63fcaffb787256c9020cd2",
+    "verify_assurance.py": "362dc6c47f245fbb4bc1e6094e260aa1ce3cf98b39f0cbb08c353dedf0bbe654",
+    "netinfo.py": "a873ac23370d67abcdc84f9efd20a8f7a43a618db6115c30690f5418f43fbfb7",
+    "study_random.py": "ef31835dfacc973fcf4e6c152530303941bd3a4055b73d537999e1f1dcfa527b"
+  },
+  "python_version": "3.13.5",
+  "optimized": 0
+}

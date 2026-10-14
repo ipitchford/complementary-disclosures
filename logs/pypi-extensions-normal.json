@@ -1,0 +1,39 @@
+{
+  "affine_primal_dual_certificates": 70,
+  "corrected_prior": {
+    "parameter_vectors": 775,
+    "old_criterion_counterexamples": 302
+  },
+  "noise": {
+    "heterogeneous_configurations": 155,
+    "product_polytope_vertices": 11154,
+    "domains_included": [
+      "zero",
+      "one_quarter",
+      "one_half",
+      "above_one_half",
+      "mixed_precisions"
+    ]
+  },
+  "one_layer": {
+    "rational_clearing_cases": 375,
+    "proper_menu_endpoint_pairs": 78
+  },
+  "negative_controls": [
+    "primal outside simplex",
+    "incompatible exact reports",
+    "incorrect dual objective",
+    "negative noise",
+    "floating point certificate",
+    "negative product error",
+    "coarse-error branch rejects small-error extrapolation"
+  ],
+  "optimized": 0,
+  "scope": "finite exact checks, not a universal proof or independent external reproduction",
+  "status": "PASS",
+  "python_version": "3.13.5",
+  "code_sha256": {
+    "verify_extensions.py": "2bf49b35f69b0793e9535d628e8e754a8b95d1df3a286b89fdc4c19890aa0973",
+    "netinfo.py": "a873ac23370d67abcdc84f9efd20a8f7a43a618db6115c30690f5418f43fbfb7"
+  }
+}
